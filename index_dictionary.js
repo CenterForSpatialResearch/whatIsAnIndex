@@ -1,0 +1,8 @@
+var indexDictionary={SVI:{column:"SVI_SPL_THEMES",columnLabel:"Combined Themes",indexLabel:"Social Vulnerability Index",indexSource:"CDC",indexYear:"2018",indexDataYear:"2018",indexLink:""},
+	SoVI:{column:"SoVI",columnLabel:"SoVI Percentile",indexLabel:"Social Vulnerability Index",indexSource:"University of South Carolina - Hazards & Vulnerability Research Institute (HVRI)",indexYear:"2014",indexDataYear:"2014",indexLink:""},
+	NRI:{column:"NRI_RISK_SCORE",columnLabel:"Risk Score",indexLabel:"National Risk Index for Natural Hazards",indexSource:"FEMA",indexYear:"2021",indexDataYear:"SoVI dependent",indexLink:""},
+	CRE:{column:"CRE_PRED3_E", columnLabel:"Rate of individuals with three plus risk factors", indexLabel:"Community Resilience Estimates", indexSource:"Census",indexYear:"2019",indexDataYear:"2017", indexLink:""},
+	MDI:{column:"MDI_rate",columnLabel:"MDI rate",indexLabel:"Multidimensional Deprivation Index",indexSource:"Census",indexYear:"2017",indexDataYear:"2017",indexLink:""},
+	SDI:{column:"SDI_score",columnLabel:"Score",indexLabel:"Social Deprivation Index",indexSource:"Robert Graham Center",indexYear:"",indexDataYear:"2015",indexLink:""},
+	CHR:{column:"CHR_Health_Factors_Rank",columnLabel:"County Health Factors Rank",indexLabel:"County Health Rankings",indexSource:" University of Wisconsin Population Health Institute",indexYear:"2021",indexDataYear:"",indexLink:""},
+	BRIC:{column:"BRIC",columnLabel:"BRIC",indexLabel:"Baseline Resilience Indicators for Communities",indexSource:"University of South Carolina - Hazards & Vulnerability Research Institute (HVRI)",indexYear:"2015",indexDataYear:"",indexLink:""}}

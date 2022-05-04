@@ -1,0 +1,49 @@
+column,totalColumn,columnType,label
+SE_A01001_011,SE_A01001_001,sumPercent,65 to 74 Years
+SE_A01001_012,SE_A01001_001,sumPercent,75 to 84 Years
+SE_A01001_013,SE_A01001_001,sumPercent,85 Years and Over
+SE_A03001_003,SE_A03001_001,sumPercent,Black or African American Alone
+SE_A03001_004,SE_A03001_001,sumPercent,American Indian and Alaska Native Alone
+SE_A03001_005,SE_A03001_001,sumPercent,Asian Alone
+SE_A03001_006,SE_A03001_001,sumPercent,Native Hawaiian and Other Pacific Islander Alone
+SE_A03001_007,SE_A03001_001,sumPercent,Some Other Race Alone
+SE_A03001_008,SE_A03001_001,sumPercent,Two or More Races
+SE_A00002_002,none,value,Population Density (Per Sq. Mile)
+SE_A01001_002,SE_A01001_001,percent,Under 5 Years
+SE_A02001_003,SE_A03001_001,percent,Female
+SE_A09005_003,SE_A09005_001,percent,Public Transportation
+SE_A09005_009,SE_A09005_001,percent,Drove Alone
+SE_A10003_001,none,value,Average Household Size
+SE_A10008_002,SE_A10008_001,percent,Family Households
+SE_A10008_003,SE_A10008_001,percent,Family Married-Couple Family
+SE_A10008_006,SE_A10008_001,percent,Female Householder
+SE_A10008_007,SE_A10008_001,percent,Nonfamily Households
+SE_A10017_002,SE_A10017_001,percent,with Social Security Income
+SE_A10030_002,SE_A10030_001,percent,No Vehicle Available
+SE_A10065_002,SE_A10065_001,percent,Children Living with Single Parents
+SE_A12002_002,SE_A12002_001,percent,Less than High School
+SE_A13002_002,SE_A13002_001,percent,Income Below Poverty Level
+SE_A13003A_002,SE_A13003A_001,percent,Under 18 years old Living in Poverty
+SE_A13003C_002,SE_A13003C_001,percent,65 and Over Living in Poverty
+SE_A14006_001,none,value,Median Household Income
+SE_A14024_001,none,value,Per Capita Income
+SE_A17005_003,SE_A17005_001,percent,Unemployed
+SE_A19001_002,SE_A19001_001,percent,Population in Group Quarters
+SE_A20001_002,SE_A20001_001,percent,No Health Insurance Coverage
+ACS20_5yr_B25047003,ACS20_5yr_B25047001,percent,Lacking Complete Plumbing
+ACS20_5yr_B25051003,ACS20_5yr_B25051001,percent,Lacking Complete Kitchen
+ACS20_5yr_B05001005,ACS20_5yr_B05001001,percent,U.S. Citizen By Naturalization
+ACS20_5yr_B25024007,ACS20_5yr_B25024001,percent,10 To 19 units
+ACS20_5yr_B25024008,ACS20_5yr_B25024001,percent,20 To 49 units
+ACS20_5yr_B25024009,ACS20_5yr_B25024001,percent,50 Or More units
+ACS20_5yr_B25024010,ACS20_5yr_B25024001,percent,Mobile Home
+ACS20_5yr_B25034011,ACS20_5yr_B25034001,percent,Built 1939 Or Earlier
+ACS20_5yr_B25077001,none,value,Median Value (Dollars)
+ACS20_5yr_B28008009,ACS20_5yr_B28008001,percent, Without Internet Subscription
+ACS20_5yr_B28008010,ACS20_5yr_B28008001,percent,No Computer
+ACS20_5yr_B28008004,ACS20_5yr_B28008001,percent,Computer and Broadband Subscription
+ACS20_5yr_C24050029,ACS20_5yr_C24050001,percent,Service Occupations
+minority,SE_A03001_001,percent,Minority
+under18,SE_A01001_001,percent,Under 18
+over65,SE_A01001_001, percent,Over 65
+multiUnit,ACS20_5yr_B25024001,percent,Living in Multi Unit Structures

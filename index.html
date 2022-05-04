@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Story Experiment</title>
+<style>
+	.chapter{
+		border-bottom:1px dotted black;
+		width:100%;
+	}
+	p{
+		min-width:600px;
+		width:30%;
+		margin:auto;
+		margin-top:30px;
+		margin-bottom:30px;
+		/*
+		margin-top:10px;*/
+/*		border:1px dotted black;
+		padding:10px;
+	*/		}
+	body{
+		font-family:"roboto", san-sarif;
+		font-weight:300;
+		font-size:16px;
+	}
+	#sankeyChart{
+		margin:auto;
+		margin-top:10px;
+		width:1100px;
+		font-size:11px;
+		font-weight:400;
+/*		border:1px dotted black;
+*/	}
+	#indices_agencies{
+		width:600px;
+		margin:auto;
+		padding:10px;
+		margin-top:10px;
+/*		border:1px dotted black;
+*/	}
+		table{
+			font-size:11px;
+		}
+	th{
+		text-align:left;
+		font-size:16px;
+	}
+	a{
+		color:black;
+	}
+	.chapterTitle{
+		font-size:36px;
+		font-weight:300;
+	}
+	tr{height: 25px;}
+	tr:nth-child(even) {
+	  background-color: rgba(150,150,150,.2);
+	}
+	#comparisonMaps{
+		width:1200px;
+		height:900px;
+/*		border:1px dotted black;
+*/		margin:auto;
+		margin-top:10px;
+	}
+	.county_label{
+		padding-top:10px;
+		font-size:14px;
+	}
+	#comparisonKeyPopup{
+		width:150px;
+		border:1px solid black;
+		background:rgba(255,255,255,1);
+		position:fixed;
+		font-size:14px;
+		font-weight:200;
+		z-index:12;
+		padding:5px;
+		visibility:hidden;
+	}
+	
+	#gridMapPopup{
+		width:200px;
+		border:1px solid black;
+		background:rgba(255,255,255,1);
+		position:fixed;
+		font-size:12px;
+		font-weight:200;
+		z-index:12;
+		padding:8px;
+		visibility:hidden;
+	}
+	#dragDrop{
+	}
+	#dragDropMap{
+		width:100vw;
+		height:600px;
+	}
+	.dropZones{
+		display:inline-block;
+		padding:5px;
+	}
+	#inactive{
+		/*height:200px;
+*/		width:1000px;
+	
+		display:block;
+		background-color:#FFFFFF;
+		margin:auto;
+		margin-bottom:10px;
+	}
+	#dragDropMenu{
+		position:relative;
+		width:100vw;
+	}
+	#redGreen{
+		margin:auto;
+		width:1000px;
+	}
+	#red{
+		width:400px;
+		min-height:100px;
+	/*	position:absolute;
+		left:400px;*/
+		background-color:#FFF100;
+		display:inline-block;
+		vertical-align:top;
+	}
+	#green{
+		width:400px;
+		min-height:100px;
+		background-color:#10B6A3;
+		display:inline-block;
+		vertical-align:top;
+	}
+	
+	#dragDropPopup{
+		width:250px;
+		border:1px solid black;
+		background:rgba(255,255,255,1);
+		position:fixed;
+		font-size:12px;
+		font-weight:200;
+		z-index:12;
+		padding:5px;
+		visibility:hidden;
+	}
+	#currentState{
+		font-size:24px;
+		font-weight:400;
+	}
+	#chapterDots{
+		width:50px;
+		/*height:100px;
+*/		position:fixed;
+		left:0px;
+		top:300px;
+/*		border:1px solid black;
+*/		z-index:999;
+	}
+</style>
+
+<body>
+
+<script src="https://d3js.org/d3.v6.min.js"></script>
+<!-- <script src="https://unpkg.com/d3-sankey@0.12.3/dist/d3-sankey.min.js"></script> -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+<script src="sankey.min.js"></script>
+<script src="sankeyChart.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+  <script src='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.js'></script>
+  <script src="https://api.mapbox.com/mapbox-gl-js/v1.10.1/mapbox-gl.js"></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v1.10.1/mapbox-gl.css' rel='stylesheet' />
+
+  <link href='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.css' rel='stylesheet' />
+<script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.5.1/mapbox-gl-geocoder.min.js"></script>
+
+<div id="chapterDots"></div>
+
+<script>
+	var chapters = ["What is an index?","What does an index do?","Who makes indices?","What goes into an index?","How would you make an index?","Appendix"]
+	// for(var i in chapters){
+// 		var chapterNavDiv = d3.select("#chapterDots").append("div").style("width","240px")
+// 		chapterNavDiv.append("div").style("width","20px").style("height","20px")
+// 		.style("border-radius","10px").style("background-color","black")
+// 		.style("margin","10px")
+// 		.style("display","inline-block")
+//
+// 		chapterNavDiv.append("div").html(chapters[i])
+// 		.style("display","inline-block")//.style("visibility","hidden")
+//
+// 	}
+</script>
+
+<div id="comparisonKeyPopup">popup</div>
+<div id="gridMapPopup">popupmap</div>
+
+<!-- <div id="title"><i>work VERY in progress - draft 1</i></div> -->
+<div id="intro" class="chapter">
+	<p class="chapterTitle">What is an index?</p>
+	<p>
+		"A index is a composite of multiple quantitative indicators that via some formula, delivers a single numerical result."- broad definition provided by wikipedia<br><br>
+		
+		 The formula and resulting numerical value vary among indices and are entirely dependent on what a given index intends to measure. Many of the ones we look at below use "vulnearbilliity","resilience", "deprivation", and "opportunity" as unifying themes and orienting principles to select different sets of indicators.
+	</p>
+		 <p>Indices are important because they can be used to guide the distribution of resources from the top down under different circumstances. How an area compares to others when considering a particular set of factors could effect how its needs are prioritized and therefore met.  Indices are also made to compare places in terms of livability or growth, these comparisons determine which cities are more attractive to potential residents.</p>
+</div>
+<div id="comparisons" class="chapter">
+	<p class="chapterTitle">What does an index do?</p>
+	<p>Indices rank places. The 8 examples below are national indices at the county level - each index assigns a numerical value to every county in the U.S., and is able to then rank the counties in order from high to low according to the index's specific formula.</p>
+	<p>*Indices are the most recent versions in use for each, even though they are produced in different years.</p>
+	
+		
+			 <p>Use the drop down list to see different states:
+		     <select id="stateSelection"></select>
+			 </p>
+
+	<div id="comparisonMaps">
+		<div id="currentState">loading...</div>
+		
+	</div>
+</div>
+<div id="gridIndices" class="chapter">
+	<p class="chapterTitle">Who makes indices? </p>
+	<p>
+		Indices are made and published by federal, state, and local government agencies, universities, nonprofits, as well as for profit companies.
+		<br><br>
+		For example, the Center for Disease Control(CDC) makes the Social Vulnerability Index. 
+		
+		The Opportunity Index designed to measure economic mobility is a research collaboration between the Census Bureau, Harvard University, and Brown University. 
+		
+		The county of San Mateo has its own vulnerability index based on 7 Census factors. A list of indices and documentation can be found at the bottom.
+			</p>
+
+</div>
+<div id="sankey" class="chapter">
+	<p class="chapterTitle">What goes into an index?</p>
+	<p>
+Indicators come from datasets provided by different government agencies, as well as medicaid claims, health records, number of amenities within an area/physical attributes, and privately conducted surveys on wellbeing and mental health. Many of the socio-economic indicators used in indices come from the Census itself. Below we take a closer look at this subset of Census indicators.
+
+<br><br>
+<strong>Two indices can use the same metric for different means depending on what it is designed to measure.</strong>
+<br><br>
+
+ For example, in a vulnerability index, the percent of residents who rent and do not own their homes, as well as the percentage of vacant properties are indicators for more vulnerability. However in a resilience index, the percent of vacant rental properties are a sign of resilience because they are seen as where temporary shelter will be readily available. Both of these indices rely on the same 2 census data points, but are used in almost opposing ways.<br><br>
+<strong>Indicators used can differ between indices by degree. </strong>
+<br><br>
+For example, age is a common ingredient in indices, many indices agree that residents under 18 is a vulnerabile population group and high percentages of this group in an area raises its vulnerability score. However, in the Census hard to count index built by the state of California, the age limit was lowered to under 5 because those populations are harder to count in a Census. <br><br>
+<!-- Similarly, population loss is an indicator of an area's declining opportunity, however, population gain is a indicator of an area's difficulty to count.  -->
+Here is an overview of what Census measures goes into which indices, rollover any text to see their relationship:
+</p>
+	<div id="sankeyChart"></div>
+
+</div>
+	<div id="dragDropPopup"></div>
+
+<div id="dragDrop" class="chapter">
+			<p class="chapterTitle">How would you make an index? </p>
+			<p>What types of measures would you put into it and what would you use the results for?
+				<br><br>
+				
+				Below are census metrics that are being used in the indices 
+				mentioned above. Drag and drop metrics into either boxes below to add indicators 
+				and see the composit index on the map.
+				<br><br>
+				<strong>The map below is preloaded with some of the metrics that are used in the CDC's SVI. Please choose your state and go from here:</strong>
+		</p>
+				
+   			 <p>Use the drop down list to see different states:
+   		     <select id="dragDropStateSelection"></select>
+   			 </p>
+				
+				
+		    <div id = "inactive" class="dropZones" ondrop="drop(event)" ondragover="allowDrop(event)">INACTIVE:<br> drag and drop metrics to either of the color boxes below to build and map your index<br>
+		    </div>
+			<div id="redGreen">
+			
+			    <div id = "red" class="dropZones" ondrop="drop(event)" ondragover="allowDrop(event)">
+					Areas with higher % or value these metrics are more this color<br>
+			    </div>
+			
+			    <div id = "green" class="dropZones" ondrop="drop(event)" ondragover="allowDrop(event)">
+				Areas with higher % or value these metrics are more this color<br>
+			    </div>
+			</div>
+			<div id="dragDropMap"></div>
+			<!-- <p>Note on method: Here we are compositing factors in the same method as the CDC's
+				 SVI, final composite value and ranking of a county is based on the sum of its
+				 percentile ranking of each of the active metrics in the order indicated(red or green).</p> -->
+			
+</div>
+
+<div id="lastChapter" class="chapter">
+	<p class="chapterTitle">Appendix of indices and index makers </p>
+	<div id="indices_agencies">
+	</div>
+</div>
+	
+
+
+
+<script src="drawSankey_self.js"></script>
+<script src="indices_agencies.js"></script>
+<!-- <script src="index_dictionary.js"></script> -->
+<script src="comparisonMaps.js"></script>
+<!-- <script src="combinationCensusCats.js"></script> -->
+<script src="dragDrop.js"></script>
+
+
+</body>

@@ -1,0 +1,1502 @@
+--------------------------------------------------------------------------------
+Codebook for Social Explorer report ID: R13120292
+--------------------------------------------------------------------------------
+
+Contents
+    - Table Summary
+    - Data Dictionary
+    - Citation and Use
+
+
+--------------------------------------------------------------------------------
+Table Summary
+--------------------------------------------------------------------------------
+ 
+Survey:           ACS 2020 (5-Year Estimates)
+Dataset:          Social Explorer Tables: ACS 2020 (5-Year Estimates)
+Tables:
+
+      1. Total Population
+         Universe:  Total Population
+         Name:      A00001
+         Variables:
+            A00001_001:   Total Population
+
+
+      2. Population Density (Per Sq. Mile)
+         Universe:  Total Population
+         Name:      A00002
+         Variables:
+            A00002_001:   Total Population
+            A00002_002:   Population Density (Per Sq. Mile)
+            A00002_003:   Area (Land)
+
+
+      3. Land Area (Sq. Miles)
+         Universe:  Area Total
+         Name:      A00003
+         Variables:
+            A00003_001:   Area Total:
+            A00003_002:      Area (Land)
+            A00003_003:      Area (Water)
+
+
+      4. Sex
+         Universe:  Total Population
+         Name:      A02001
+         Variables:
+            A02001_001:   Total Population:
+            A02001_002:      Male
+            A02001_003:      Female
+
+
+      5. Age
+         Universe:  Total Population
+         Name:      A01001
+         Variables:
+            A01001_001:   Total Population:
+            A01001_002:      Under 5 Years
+            A01001_003:      5 to 9 Years
+            A01001_004:      10 to 14 Years
+            A01001_005:      15 to 17 Years
+            A01001_006:      18 to 24 Years
+            A01001_007:      25 to 34 Years
+            A01001_008:      35 to 44 Years
+            A01001_009:      45 to 54 Years
+            A01001_010:      55 to 64 Years
+            A01001_011:      65 to 74 Years
+            A01001_012:      75 to 84 Years
+            A01001_013:      85 Years and Over
+
+
+      6. Median Age by Sex
+         Universe:  Total Population
+         Name:      A01004
+         Variables:
+            A01004_001:   Median Age:
+            A01004_002:      Male Population
+            A01004_003:      Female Population
+
+
+      7. Race
+         Universe:  Total Population
+         Name:      A03001
+         Variables:
+            A03001_001:   Total Population:
+            A03001_002:      White Alone
+            A03001_003:      Black or African American Alone
+            A03001_004:      American Indian and Alaska Native Alone
+            A03001_005:      Asian Alone
+            A03001_006:      Native Hawaiian and Other Pacific Islander Alone
+            A03001_007:      Some Other Race Alone
+            A03001_008:      Two or More Races
+
+
+      8. Households by Household Type
+         Universe:  Households
+         Name:      A10008
+         Variables:
+            A10008_001:   Households:
+            A10008_002:      Family Households:
+            A10008_003:         Married-Couple Family
+            A10008_004:         Other Family:
+            A10008_005:            Male Householder, No Wife Present
+            A10008_006:            Female Householder, No Husband Present
+            A10008_007:      Nonfamily Households:
+            A10008_008:         Male Householder
+            A10008_009:         Female Householder
+
+
+      9. Average Household Size
+         Universe:  Occupied Households
+         Name:      A10003
+         Variables:
+            A10003_001:   Average Household Size
+
+
+      10. Group Quarters Population
+          Universe:  Total Population
+          Name:      A19001
+          Variables:
+             A19001_001:   Total Population:
+             A19001_002:      Population in Group Quarters
+             A19001_003:      Population Not in Group Quarters
+
+
+      11. Highest Educational Attainment for Population 25 Years and Over
+          Universe:  Population 25 Years and Over
+          Name:      A12002
+          Variables:
+             A12002_001:   Population 25 Years and Over:
+             A12002_002:      Less than High School
+             A12002_003:      High School Graduate or More (Includes Equivalency)
+             A12002_004:      Some College or More
+             A12002_005:      Bachelor's Degree or More
+             A12002_006:      Master's Degree or More
+             A12002_007:      Professional School Degree or More
+             A12002_008:      Doctorate Degree
+
+
+      12. Unemployment Rate for Civilian Population in Labor Force 16 Years and Over
+          Universe:  Civilian Population in Labor Force 16 Years and Over:
+          Name:      A17005
+          Variables:
+             A17005_001:   Civilian Population in Labor Force 16 Years and Over:
+             A17005_002:      Employed
+             A17005_003:      Unemployed
+
+
+      13. Median Household Income (In <DollarYear> Inflation Adjusted Dollars)
+          Universe:  Households
+          Name:      A14006
+          Variables:
+             A14006_001:   Median Household Income (In 2020 Inflation Adjusted Dollars)
+
+
+      14. Households with Social Security Income
+          Universe:  Households
+          Name:      A10017
+          Variables:
+             A10017_001:   Households:
+             A10017_002:      With Social Security Income
+             A10017_003:      No Social Security Income
+
+
+      15. Per Capita Income (In <DollarYear> Inflation Adjusted Dollars)
+          Universe:  Total Population
+          Name:      A14024
+          Variables:
+             A14024_001:   Per Capita Income (In 2020 Inflation Adjusted Dollars)
+
+
+      16. Gross Rent (Housing Units with Cash Rent)
+          Universe:  Renter-occupied housing units with cash rent
+          Name:      A18001
+          Variables:
+             A18001_001:   Renter-Occupied Housing Units with Cash Rent:
+             A18001_002:      Less than $300
+             A18001_003:      $300 to $599
+             A18001_004:      $600 to $799
+             A18001_005:      $800 to $999
+             A18001_006:      $1,000 to $1,249
+             A18001_007:      $1,250 to $1,499
+             A18001_008:      $1,500 to $1,999
+             A18001_009:      $2,000 or More
+
+
+      17. Poverty Status in of Families by Family Type by Presence of Children Under 18 Years
+          Universe:  Families
+          Name:      A13002
+          Variables:
+             A13002_001:   Families:
+             A13002_002:      Income Below Poverty Level:
+             A13002_003:         Married Couple Family: with Related Child Living  Bellow Poverty Level
+             A13002_004:         Married Couple Family: No Related Children Under 18 Years
+             A13002_005:         Male Householder, No Wife Present:
+             A13002_006:            With Related Children Under 18 Years
+             A13002_007:            No Related Children Under 18 Years
+             A13002_008:         Female Householder, No Husband Present:
+             A13002_009:            With Related Children Under 18 Years
+             A13002_010:            No Related Children Under 18 Years
+             A13002_011:      Income At or Above Poverty Level
+
+
+      18. Poverty Status in 2020 for Children Under 18
+          Universe:  Population Under 18 Years of Age for whom poverty status Is determined
+          Name:      A13003A
+          Variables:
+             A13003A_001:   Population Under 18 Years of Age for Whom Poverty Status Is Determined:
+             A13003A_002:      Living in Poverty
+             A13003A_003:      At or Above Poverty Level
+
+
+      19. Poverty Status in 2020 for Population Age 18 to 64
+          Universe:  Population Age 18 to 64 for whom poverty status Is determined
+          Name:      A13003B
+          Variables:
+             A13003B_001:   Population Age 18 to 64 for Whom Poverty Status  Is Determined:
+             A13003B_002:      Living in Poverty
+             A13003B_003:      At or Above Poverty Level
+
+
+      20. Poverty Status in 2020 for Population Age 65 and Over
+          Universe:  Population Age 65 and Over for whom poverty status Is determined
+          Name:      A13003C
+          Variables:
+             A13003C_001:   Population Age 65 and Over for Whom Poverty  Status Is Determined:
+             A13003C_002:      Living in Poverty
+             A13003C_003:      At or Above Poverty Level
+
+
+      21. Ratio of Income in 2020 to Poverty Level
+          Universe:  Population for whom poverty status Is determined
+          Name:      A13004
+          Variables:
+             A13004_001:   Population for Whom Poverty Status Is Determined:
+             A13004_002:      Under .50
+             A13004_003:      .50 to .74
+             A13004_004:      .75 to .99
+             A13004_005:      1.00 to 1.49
+             A13004_006:      1.50 to 1.99
+             A13004_007:      2.00 and Over
+
+
+      22. Means of Transportation to Work for Workers 16 Years and Over
+          Universe:  Workers 16 Years and Over
+          Name:      A09005
+          Variables:
+             A09005_001:   Workers 16 Years and Over:
+             A09005_002:      Car, Truck, or Van
+             A09005_009:         Drove Alone
+             A09005_010:         Carpooled
+             A09005_003:      Public Transportation (Includes Taxicab)
+             A09005_004:      Motorcycle
+             A09005_005:      Bicycle
+             A09005_006:      Walked
+             A09005_007:      Other Means
+             A09005_008:      Worked At Home
+
+
+      23. Housing Units by Vehicles Available
+          Universe:  Universe:  Occupied housing units
+          Name:      A10030
+          Variables:
+             A10030_001:   Occupied Housing Units:
+             A10030_002:      No Vehicle Available
+             A10030_003:      1 Vehicle Available
+             A10030_004:      2 Vehicles Available
+             A10030_005:      3 Vehicles Available
+             A10030_006:      4 Vehicles Available
+             A10030_007:      5 or More Vehicles Available
+
+
+      24. Health Insurance
+          Universe:  Civilian Noninstitutionalized Population
+          Name:      A20001
+          Variables:
+             A20001_001:   Total:
+             A20001_002:      No Health Insurance Coverage
+             A20001_003:      With Health Insurance Coverage:
+             A20001_004:         Public Health Coverage
+             A20001_005:         Private Health Insurance
+
+
+      25. Children Living with Single Parents
+          Universe:  Own Children under 18 Years
+          Name:      A10065
+          Variables:
+             A10065_001:   Own Children under 18 Years:
+             A10065_002:      Children Living with Single Parents
+
+
+
+
+
+Survey:           ACS 2020 (5-Year Estimates)
+Dataset:          American Community Survey 2020
+Tables:
+
+      1. Nativity And Citizenship Status In The United States
+         Universe:  Universe:  Total population in the United States
+         Name:      B05001
+         Variables:
+            B05001001:   Total:
+            B05001002:      U.S. Citizen, Born In The United States
+            B05001003:      U.S. Citizen, Born In Puerto Rico or U.S. Island Areas
+            B05001004:      U.S. Citizen, Born Abroad Of American Parent(S)
+            B05001005:      U.S. Citizen By Naturalization
+            B05001006:      Not A U.S. Citizen
+
+
+      2. Nativity And Citizenship Status In The United States
+         Universe:  Universe:  Total population in the United States
+         Name:      B05001_se
+         Variables:
+            B05001001s:   Std. Error: Total:
+            B05001002s:      Std. Error: U.S. Citizen, Born In The United States
+            B05001003s:      Std. Error: U.S. Citizen, Born In Puerto Rico or U.S. Island Areas
+            B05001004s:      Std. Error: U.S. Citizen, Born Abroad Of American Parent(S)
+            B05001005s:      Std. Error: U.S. Citizen By Naturalization
+            B05001006s:      Std. Error: Not A U.S. Citizen
+
+
+      3. Household Language By Household Limited English Speaking Status
+         Universe:  Universe:  Households
+         Name:      C16002
+         Variables:
+            C16002001:   Total:
+            C16002002:      English Only
+            C16002003:      Spanish:
+            C16002004:         Limited English Speaking Household
+            C16002005:         Not A Limited English Speaking Household
+            C16002006:      Other Indo-European Languages:
+            C16002007:         Limited English Speaking Household
+            C16002008:         Not A Limited English Speaking Household
+            C16002009:      Asian And Pacific Island Languages:
+            C16002010:         Limited English Speaking Household
+            C16002011:         Not A Limited English Speaking Household
+            C16002012:      Other Languages:
+            C16002013:         Limited English Speaking Household
+            C16002014:         Not A Limited English Speaking Household
+
+
+      4. Household Language By Household Limited English Speaking Status
+         Universe:  Universe:  Households
+         Name:      C16002_se
+         Variables:
+            C16002001s:   Std. Error: Total:
+            C16002002s:      Std. Error: English Only
+            C16002003s:      Std. Error: Spanish:
+            C16002004s:         Std. Error: Limited English Speaking Household
+            C16002005s:         Std. Error: Not A Limited English Speaking Household
+            C16002006s:      Std. Error: Other Indo-European Languages:
+            C16002007s:         Std. Error: Limited English Speaking Household
+            C16002008s:         Std. Error: Not A Limited English Speaking Household
+            C16002009s:      Std. Error: Asian And Pacific Island Languages:
+            C16002010s:         Std. Error: Limited English Speaking Household
+            C16002011s:         Std. Error: Not A Limited English Speaking Household
+            C16002012s:      Std. Error: Other Languages:
+            C16002013s:         Std. Error: Limited English Speaking Household
+            C16002014s:         Std. Error: Not A Limited English Speaking Household
+
+
+      5. Nativity By Language Spoken At Home By Ability To Speak English For The Population 5 Years And Over
+         Universe:  Universe:  Population 5 years and over
+         Name:      B16005
+         Variables:
+            B16005001:   Total:
+            B16005002:      Native:
+            B16005003:         Speak Only English
+            B16005004:         Speak Spanish:
+            B16005005:            Speak English "Very Well"
+            B16005006:            Speak English "Well"
+            B16005007:            Speak English "Not Well"
+            B16005008:            Speak English "Not At All"
+            B16005009:         Speak Other Indo-European Languages:
+            B16005010:            Speak English "Very Well"
+            B16005011:            Speak English "Well"
+            B16005012:            Speak English "Not Well"
+            B16005013:            Speak English "Not At All"
+            B16005014:         Speak Asian And Pacific Island Languages:
+            B16005015:            Speak English "Very Well"
+            B16005016:            Speak English "Well"
+            B16005017:            Speak English "Not Well"
+            B16005018:            Speak English "Not At All"
+            B16005019:         Speak Other Languages:
+            B16005020:            Speak English "Very Well"
+            B16005021:            Speak English "Well"
+            B16005022:            Speak English "Not Well"
+            B16005023:            Speak English "Not At All"
+            B16005024:      Foreign Born:
+            B16005025:         Speak Only English
+            B16005026:         Speak Spanish:
+            B16005027:            Speak English "Very Well"
+            B16005028:            Speak English "Well"
+            B16005029:            Speak English "Not Well"
+            B16005030:            Speak English "Not At All"
+            B16005031:         Speak Other Indo-European Languages:
+            B16005032:            Speak English "Very Well"
+            B16005033:            Speak English "Well"
+            B16005034:            Speak English "Not Well"
+            B16005035:            Speak English "Not At All"
+            B16005036:         Speak Asian And Pacific Island Languages:
+            B16005037:            Speak English "Very Well"
+            B16005038:            Speak English "Well"
+            B16005039:            Speak English "Not Well"
+            B16005040:            Speak English "Not At All"
+            B16005041:         Speak Other Languages:
+            B16005042:            Speak English "Very Well"
+            B16005043:            Speak English "Well"
+            B16005044:            Speak English "Not Well"
+            B16005045:            Speak English "Not At All"
+
+
+      6. Nativity By Language Spoken At Home By Ability To Speak English For The Population 5 Years And Over
+         Universe:  Universe:  Population 5 years and over
+         Name:      B16005_se
+         Variables:
+            B16005001s:   Std. Error: Total:
+            B16005002s:      Std. Error: Native:
+            B16005003s:         Std. Error: Speak Only English
+            B16005004s:         Std. Error: Speak Spanish:
+            B16005005s:            Std. Error: Speak English "Very Well"
+            B16005006s:            Std. Error: Speak English "Well"
+            B16005007s:            Std. Error: Speak English "Not Well"
+            B16005008s:            Std. Error: Speak English "Not At All"
+            B16005009s:         Std. Error: Speak Other Indo-European Languages:
+            B16005010s:            Std. Error: Speak English "Very Well"
+            B16005011s:            Std. Error: Speak English "Well"
+            B16005012s:            Std. Error: Speak English "Not Well"
+            B16005013s:            Std. Error: Speak English "Not At All"
+            B16005014s:         Std. Error: Speak Asian And Pacific Island Languages:
+            B16005015s:            Std. Error: Speak English "Very Well"
+            B16005016s:            Std. Error: Speak English "Well"
+            B16005017s:            Std. Error: Speak English "Not Well"
+            B16005018s:            Std. Error: Speak English "Not At All"
+            B16005019s:         Std. Error: Speak Other Languages:
+            B16005020s:            Std. Error: Speak English "Very Well"
+            B16005021s:            Std. Error: Speak English "Well"
+            B16005022s:            Std. Error: Speak English "Not Well"
+            B16005023s:            Std. Error: Speak English "Not At All"
+            B16005024s:      Std. Error: Foreign Born:
+            B16005025s:         Std. Error: Speak Only English
+            B16005026s:         Std. Error: Speak Spanish:
+            B16005027s:            Std. Error: Speak English "Very Well"
+            B16005028s:            Std. Error: Speak English "Well"
+            B16005029s:            Std. Error: Speak English "Not Well"
+            B16005030s:            Std. Error: Speak English "Not At All"
+            B16005031s:         Std. Error: Speak Other Indo-European Languages:
+            B16005032s:            Std. Error: Speak English "Very Well"
+            B16005033s:            Std. Error: Speak English "Well"
+            B16005034s:            Std. Error: Speak English "Not Well"
+            B16005035s:            Std. Error: Speak English "Not At All"
+            B16005036s:         Std. Error: Speak Asian And Pacific Island Languages:
+            B16005037s:            Std. Error: Speak English "Very Well"
+            B16005038s:            Std. Error: Speak English "Well"
+            B16005039s:            Std. Error: Speak English "Not Well"
+            B16005040s:            Std. Error: Speak English "Not At All"
+            B16005041s:         Std. Error: Speak Other Languages:
+            B16005042s:            Std. Error: Speak English "Very Well"
+            B16005043s:            Std. Error: Speak English "Well"
+            B16005044s:            Std. Error: Speak English "Not Well"
+            B16005045s:            Std. Error: Speak English "Not At All"
+
+
+      7. Employment Status By Disability Status
+         Universe:  Universe:  Civilian noninstitutionalized population 18 to 64 years
+         Name:      C18120
+         Variables:
+            C18120001:   Total:
+            C18120002:      In The Labor Force:
+            C18120003:         Employed:
+            C18120004:            With A Disability
+            C18120005:            No Disability
+            C18120006:         Unemployed:
+            C18120007:            With A Disability
+            C18120008:            No Disability
+            C18120009:      Not In Labor Force:
+            C18120010:         With A Disability
+            C18120011:         No Disability
+
+
+      8. Employment Status By Disability Status
+         Universe:  Universe:  Civilian noninstitutionalized population 18 to 64 years
+         Name:      C18120_se
+         Variables:
+            C18120001s:   Std. Error: Total:
+            C18120002s:      Std. Error: In The Labor Force:
+            C18120003s:         Std. Error: Employed:
+            C18120004s:            Std. Error: With A Disability
+            C18120005s:            Std. Error: No Disability
+            C18120006s:         Std. Error: Unemployed:
+            C18120007s:            Std. Error: With A Disability
+            C18120008s:            Std. Error: No Disability
+            C18120009s:      Std. Error: Not In Labor Force:
+            C18120010s:         Std. Error: With A Disability
+            C18120011s:         Std. Error: No Disability
+
+
+      9. Aggregate Usual Hours Worked In The Past 12 Months By Sex For Workers 16 To 64 Years
+         Universe:  Universe:  Population 16 to 64 years who have worked in the past 12 months
+         Name:      B23018
+         Variables:
+            B23018001:   Aggregate Usual Hours:
+            B23018002:      Male
+            B23018003:      Female
+
+
+      10. Aggregate Usual Hours Worked In The Past 12 Months By Sex For Workers 16 To 64 Years
+          Universe:  Universe:  Population 16 to 64 years who have worked in the past 12 months
+          Name:      B23018_se
+          Variables:
+             B23018001s:   Std. Error: Aggregate Usual Hours:
+             B23018002s:      Std. Error: Male
+             B23018003s:      Std. Error: Female
+
+
+      11. Industry By Occupation For The Civilian  Employed Population 16 Years And Over
+          Universe:  Universe:  Civilian employed population 16 years and over
+          Name:      C24050
+          Variables:
+             C24050001:   Total:
+             C24050002:      Agriculture, Forestry, Fishing And Hunting, And Mining
+             C24050003:      Construction
+             C24050004:      Manufacturing
+             C24050005:      Wholesale Trade
+             C24050006:      Retail Trade
+             C24050007:      Transportation And Warehousing, And Utilities
+             C24050008:      Information
+             C24050009:      Finance And Insurance, And Real Estate, And Rental And Leasing
+             C24050010:      Professional, Scientific, And Management, And Administrative, And Waste Management Services
+             C24050011:      Educational Services, And Health Care And Social Assistance
+             C24050012:      Arts, Entertainment, And Recreation, And Accommodation And Food Services
+             C24050013:      Other Services, Except Public Administration
+             C24050014:      Public Administration
+             C24050015:      Management, Business, Science, And Arts Occupations:
+             C24050016:         Agriculture, Forestry, Fishing And Hunting, And Mining
+             C24050017:         Construction
+             C24050018:         Manufacturing
+             C24050019:         Wholesale Trade
+             C24050020:         Retail Trade
+             C24050021:         Transportation And Warehousing, And Utilities
+             C24050022:         Information
+             C24050023:         Finance And Insurance, And Real Estate, And Rental And Leasing
+             C24050024:         Professional, Scientific, And Management, And Administrative, And Waste Management Services
+             C24050025:         Educational Services, And Health Care And Social Assistance
+             C24050026:         Arts, Entertainment, And Recreation, And Accommodation And Food Services
+             C24050027:         Other Services, Except Public Administration
+             C24050028:         Public Administration
+             C24050029:      Service Occupations:
+             C24050030:         Agriculture, Forestry, Fishing And Hunting, And Mining
+             C24050031:         Construction
+             C24050032:         Manufacturing
+             C24050033:         Wholesale Trade
+             C24050034:         Retail Trade
+             C24050035:         Transportation And Warehousing, And Utilities
+             C24050036:         Information
+             C24050037:         Finance And Insurance, And Real Estate, And Rental And Leasing
+             C24050038:         Professional, Scientific, And Management, And Administrative, And Waste Management Services
+             C24050039:         Educational Services, And Health Care And Social Assistance
+             C24050040:         Arts, Entertainment, And Recreation, And Accommodation And Food Services
+             C24050041:         Other Services, Except Public Administration
+             C24050042:         Public Administration
+             C24050043:      Sales And Office Occupations:
+             C24050044:         Agriculture, Forestry, Fishing And Hunting, And Mining
+             C24050045:         Construction
+             C24050046:         Manufacturing
+             C24050047:         Wholesale Trade
+             C24050048:         Retail Trade
+             C24050049:         Transportation And Warehousing, And Utilities
+             C24050050:         Information
+             C24050051:         Finance And Insurance, And Real Estate, And Rental And Leasing
+             C24050052:         Professional, Scientific, And Management, And Administrative, And Waste Management Services
+             C24050053:         Educational Services, And Health Care And Social Assistance
+             C24050054:         Arts, Entertainment, And Recreation, And Accommodation And Food Services
+             C24050055:         Other Services, Except Public Administration
+             C24050056:         Public Administration
+             C24050057:      Natural Resources, Construction, And Maintenance Occupations:
+             C24050058:         Agriculture, Forestry, Fishing And Hunting, And Mining
+             C24050059:         Construction
+             C24050060:         Manufacturing
+             C24050061:         Wholesale Trade
+             C24050062:         Retail Trade
+             C24050063:         Transportation And Warehousing, And Utilities
+             C24050064:         Information
+             C24050065:         Finance And Insurance, And Real Estate, And Rental And Leasing
+             C24050066:         Professional, Scientific, And Management, And Administrative, And Waste Management Services
+             C24050067:         Educational Services, And Health Care And Social Assistance
+             C24050068:         Arts, Entertainment, And Recreation, And Accommodation And Food Services
+             C24050069:         Other Services, Except Public Administration
+             C24050070:         Public Administration
+             C24050071:      Production, Transportation, And Material Moving Occupations:
+             C24050072:         Agriculture, Forestry, Fishing And Hunting, And Mining
+             C24050073:         Construction
+             C24050074:         Manufacturing
+             C24050075:         Wholesale Trade
+             C24050076:         Retail Trade
+             C24050077:         Transportation And Warehousing, And Utilities
+             C24050078:         Information
+             C24050079:         Finance And Insurance, And Real Estate, And Rental And Leasing
+             C24050080:         Professional, Scientific, And Management, And Administrative, And Waste Management Services
+             C24050081:         Educational Services, And Health Care And Social Assistance
+             C24050082:         Arts, Entertainment, And Recreation, And Accommodation And Food Services
+             C24050083:         Other Services, Except Public Administration
+             C24050084:         Public Administration
+
+
+      12. Industry By Occupation For The Civilian  Employed Population 16 Years And Over
+          Universe:  Universe:  Civilian employed population 16 years and over
+          Name:      C24050_se
+          Variables:
+             C24050001s:   Std. Error: Total:
+             C24050002s:      Std. Error: Agriculture, Forestry, Fishing And Hunting, And Mining
+             C24050003s:      Std. Error: Construction
+             C24050004s:      Std. Error: Manufacturing
+             C24050005s:      Std. Error: Wholesale Trade
+             C24050006s:      Std. Error: Retail Trade
+             C24050007s:      Std. Error: Transportation And Warehousing, And Utilities
+             C24050008s:      Std. Error: Information
+             C24050009s:      Std. Error: Finance And Insurance, And Real Estate, And Rental And Leasing
+             C24050010s:      Std. Error: Professional, Scientific, And Management, And Administrative, And Waste Management Services
+             C24050011s:      Std. Error: Educational Services, And Health Care And Social Assistance
+             C24050012s:      Std. Error: Arts, Entertainment, And Recreation, And Accommodation And Food Services
+             C24050013s:      Std. Error: Other Services, Except Public Administration
+             C24050014s:      Std. Error: Public Administration
+             C24050015s:      Std. Error: Management, Business, Science, And Arts Occupations:
+             C24050016s:         Std. Error: Agriculture, Forestry, Fishing And Hunting, And Mining
+             C24050017s:         Std. Error: Construction
+             C24050018s:         Std. Error: Manufacturing
+             C24050019s:         Std. Error: Wholesale Trade
+             C24050020s:         Std. Error: Retail Trade
+             C24050021s:         Std. Error: Transportation And Warehousing, And Utilities
+             C24050022s:         Std. Error: Information
+             C24050023s:         Std. Error: Finance And Insurance, And Real Estate, And Rental And Leasing
+             C24050024s:         Std. Error: Professional, Scientific, And Management, And Administrative, And Waste Management Services
+             C24050025s:         Std. Error: Educational Services, And Health Care And Social Assistance
+             C24050026s:         Std. Error: Arts, Entertainment, And Recreation, And Accommodation And Food Services
+             C24050027s:         Std. Error: Other Services, Except Public Administration
+             C24050028s:         Std. Error: Public Administration
+             C24050029s:      Std. Error: Service Occupations:
+             C24050030s:         Std. Error: Agriculture, Forestry, Fishing And Hunting, And Mining
+             C24050031s:         Std. Error: Construction
+             C24050032s:         Std. Error: Manufacturing
+             C24050033s:         Std. Error: Wholesale Trade
+             C24050034s:         Std. Error: Retail Trade
+             C24050035s:         Std. Error: Transportation And Warehousing, And Utilities
+             C24050036s:         Std. Error: Information
+             C24050037s:         Std. Error: Finance And Insurance, And Real Estate, And Rental And Leasing
+             C24050038s:         Std. Error: Professional, Scientific, And Management, And Administrative, And Waste Management Services
+             C24050039s:         Std. Error: Educational Services, And Health Care And Social Assistance
+             C24050040s:         Std. Error: Arts, Entertainment, And Recreation, And Accommodation And Food Services
+             C24050041s:         Std. Error: Other Services, Except Public Administration
+             C24050042s:         Std. Error: Public Administration
+             C24050043s:      Std. Error: Sales And Office Occupations:
+             C24050044s:         Std. Error: Agriculture, Forestry, Fishing And Hunting, And Mining
+             C24050045s:         Std. Error: Construction
+             C24050046s:         Std. Error: Manufacturing
+             C24050047s:         Std. Error: Wholesale Trade
+             C24050048s:         Std. Error: Retail Trade
+             C24050049s:         Std. Error: Transportation And Warehousing, And Utilities
+             C24050050s:         Std. Error: Information
+             C24050051s:         Std. Error: Finance And Insurance, And Real Estate, And Rental And Leasing
+             C24050052s:         Std. Error: Professional, Scientific, And Management, And Administrative, And Waste Management Services
+             C24050053s:         Std. Error: Educational Services, And Health Care And Social Assistance
+             C24050054s:         Std. Error: Arts, Entertainment, And Recreation, And Accommodation And Food Services
+             C24050055s:         Std. Error: Other Services, Except Public Administration
+             C24050056s:         Std. Error: Public Administration
+             C24050057s:      Std. Error: Natural Resources, Construction, And Maintenance Occupations:
+             C24050058s:         Std. Error: Agriculture, Forestry, Fishing And Hunting, And Mining
+             C24050059s:         Std. Error: Construction
+             C24050060s:         Std. Error: Manufacturing
+             C24050061s:         Std. Error: Wholesale Trade
+             C24050062s:         Std. Error: Retail Trade
+             C24050063s:         Std. Error: Transportation And Warehousing, And Utilities
+             C24050064s:         Std. Error: Information
+             C24050065s:         Std. Error: Finance And Insurance, And Real Estate, And Rental And Leasing
+             C24050066s:         Std. Error: Professional, Scientific, And Management, And Administrative, And Waste Management Services
+             C24050067s:         Std. Error: Educational Services, And Health Care And Social Assistance
+             C24050068s:         Std. Error: Arts, Entertainment, And Recreation, And Accommodation And Food Services
+             C24050069s:         Std. Error: Other Services, Except Public Administration
+             C24050070s:         Std. Error: Public Administration
+             C24050071s:      Std. Error: Production, Transportation, And Material Moving Occupations:
+             C24050072s:         Std. Error: Agriculture, Forestry, Fishing And Hunting, And Mining
+             C24050073s:         Std. Error: Construction
+             C24050074s:         Std. Error: Manufacturing
+             C24050075s:         Std. Error: Wholesale Trade
+             C24050076s:         Std. Error: Retail Trade
+             C24050077s:         Std. Error: Transportation And Warehousing, And Utilities
+             C24050078s:         Std. Error: Information
+             C24050079s:         Std. Error: Finance And Insurance, And Real Estate, And Rental And Leasing
+             C24050080s:         Std. Error: Professional, Scientific, And Management, And Administrative, And Waste Management Services
+             C24050081s:         Std. Error: Educational Services, And Health Care And Social Assistance
+             C24050082s:         Std. Error: Arts, Entertainment, And Recreation, And Accommodation And Food Services
+             C24050083s:         Std. Error: Other Services, Except Public Administration
+             C24050084s:         Std. Error: Public Administration
+
+
+      13. Units In Structure
+          Universe:  Universe:  Housing units
+          Name:      B25024
+          Variables:
+             B25024001:   Total:
+             B25024002:      1, Detached
+             B25024003:      1, Attached
+             B25024004:      2
+             B25024005:      3 or 4
+             B25024006:      5 To 9
+             B25024007:      10 To 19
+             B25024008:      20 To 49
+             B25024009:      50 or More
+             B25024010:      Mobile Home
+             B25024011:      Boat, Rv, Van, Etc.
+
+
+      14. Units In Structure
+          Universe:  Universe:  Housing units
+          Name:      B25024_se
+          Variables:
+             B25024001s:   Std. Error: Total:
+             B25024002s:      Std. Error: 1, Detached
+             B25024003s:      Std. Error: 1, Attached
+             B25024004s:      Std. Error: 2
+             B25024005s:      Std. Error: 3 or 4
+             B25024006s:      Std. Error: 5 To 9
+             B25024007s:      Std. Error: 10 To 19
+             B25024008s:      Std. Error: 20 To 49
+             B25024009s:      Std. Error: 50 or More
+             B25024010s:      Std. Error: Mobile Home
+             B25024011s:      Std. Error: Boat, Rv, Van, Etc.
+
+
+      15. Year Structure Built
+          Universe:  Universe:  Housing units
+          Name:      B25034
+          Variables:
+             B25034001:   Total:
+             B25034002:      Built 2014 or Later
+             B25034003:      Built 2010 To 2013
+             B25034004:      Built 2000 To 2009
+             B25034005:      Built 1990 To 1999
+             B25034006:      Built 1980 To 1989
+             B25034007:      Built 1970 To 1979
+             B25034008:      Built 1960 To 1969
+             B25034009:      Built 1950 To 1959
+             B25034010:      Built 1940 To 1949
+             B25034011:      Built 1939 or Earlier
+
+
+      16. Year Structure Built
+          Universe:  Universe:  Housing units
+          Name:      B25034_se
+          Variables:
+             B25034001s:   Std. Error: Total:
+             B25034002s:      Std. Error: Built 2014 or Later
+             B25034003s:      Std. Error: Built 2010 To 2013
+             B25034004s:      Std. Error: Built 2000 To 2009
+             B25034005s:      Std. Error: Built 1990 To 1999
+             B25034006s:      Std. Error: Built 1980 To 1989
+             B25034007s:      Std. Error: Built 1970 To 1979
+             B25034008s:      Std. Error: Built 1960 To 1969
+             B25034009s:      Std. Error: Built 1950 To 1959
+             B25034010s:      Std. Error: Built 1940 To 1949
+             B25034011s:      Std. Error: Built 1939 or Earlier
+
+
+      17. Plumbing Facilities For All Housing Units
+          Universe:  Universe:  Housing units
+          Name:      B25047
+          Variables:
+             B25047001:   Total:
+             B25047002:      Complete Plumbing Facilities
+             B25047003:      Lacking Complete Plumbing Facilities
+
+
+      18. Plumbing Facilities For All Housing Units
+          Universe:  Universe:  Housing units
+          Name:      B25047_se
+          Variables:
+             B25047001s:   Std. Error: Total:
+             B25047002s:      Std. Error: Complete Plumbing Facilities
+             B25047003s:      Std. Error: Lacking Complete Plumbing Facilities
+
+
+      19. Kitchen Facilities For All Housing Units
+          Universe:  Universe:  Housing units
+          Name:      B25051
+          Variables:
+             B25051001:   Total:
+             B25051002:      Complete Kitchen Facilities
+             B25051003:      Lacking Complete Kitchen Facilities
+
+
+      20. Kitchen Facilities For All Housing Units
+          Universe:  Universe:  Housing units
+          Name:      B25051_se
+          Variables:
+             B25051001s:   Std. Error: Total:
+             B25051002s:      Std. Error: Complete Kitchen Facilities
+             B25051003s:      Std. Error: Lacking Complete Kitchen Facilities
+
+
+      21. Median Value (Dollars)
+          Universe:  Universe:  Owner-occupied housing units
+          Name:      B25077
+          Variables:
+             B25077001:   Median Value (Dollars)
+
+
+      22. Median Value (Dollars)
+          Universe:  Universe:  Owner-occupied housing units
+          Name:      B25077_se
+          Variables:
+             B25077001s:   Std. Error: Median Value (Dollars)
+
+
+      23. Presence Of A Computer And Type Of Internet Subscription In Household
+          Universe:  Universe:  Population in Households
+          Name:      B28008
+          Variables:
+             B28008001:   Total:
+             B28008002:      Has A Computer:
+             B28008003:         With Dial-Up Internet Subscription Alone
+             B28008004:         With A Broadband Subscription:
+             B28008005:            With A Fixed Broadband Internet Subscription:
+             B28008006:               With A Cellular Data Plan
+             B28008007:               Without A Cellular Data Plan
+             B28008008:            Cellular Data Plan Alone or With Dial-Up
+             B28008009:         Without Internet Subscription
+             B28008010:      No Computer
+
+
+      24. Presence Of A Computer And Type Of Internet Subscription In Household
+          Universe:  Universe:  Population in Households
+          Name:      B28008_se
+          Variables:
+             B28008001s:   Std. Error: Total:
+             B28008002s:      Std. Error: Has A Computer:
+             B28008003s:         Std. Error: With Dial-Up Internet Subscription Alone
+             B28008004s:         Std. Error: With A Broadband Subscription:
+             B28008005s:            Std. Error: With A Fixed Broadband Internet Subscription:
+             B28008006s:               Std. Error: With A Cellular Data Plan
+             B28008007s:               Std. Error: Without A Cellular Data Plan
+             B28008008s:            Std. Error: Cellular Data Plan Alone or With Dial-Up
+             B28008009s:         Std. Error: Without Internet Subscription
+             B28008010s:      Std. Error: No Computer
+
+
+      25. Computers In Household
+          Universe:  Universe:  Households
+          Name:      B28010
+          Variables:
+             B28010001:   Total:
+             B28010002:      Has One or More Types Of Computing Devices:
+             B28010003:         Desktop or Laptop
+             B28010004:            Desktop or Laptop Alone
+             B28010005:         Smartphone, Tablet or Other Portable Wireless Computer or Other Computer
+             B28010006:            Smartphone, Tablet or Other Portable Wireless Computer or Other Computer, No Desktop or Laptop
+             B28010007:      No Computer
+
+
+      26. Computers In Household
+          Universe:  Universe:  Households
+          Name:      B28010_se
+          Variables:
+             B28010001s:   Std. Error: Total:
+             B28010002s:      Std. Error: Has One or More Types Of Computing Devices:
+             B28010003s:         Std. Error: Desktop or Laptop
+             B28010004s:            Std. Error: Desktop or Laptop Alone
+             B28010005s:         Std. Error: Smartphone, Tablet or Other Portable Wireless Computer or Other Computer
+             B28010006s:            Std. Error: Smartphone, Tablet or Other Portable Wireless Computer or Other Computer, No Desktop or Laptop
+             B28010007s:      Std. Error: No Computer
+
+
+
+
+
+ 
+ 
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Variables 
+      FIPS:           FIPS
+      QName:          Qualifying Name
+      FILEID:         File identification
+      STUSAB:         State Postal Abbreviation
+      SUMLEV:         Summary Level
+      GEOCOMP:        Geographic Component
+      LOGRECNO:       Logical Record Number
+      US:             US
+      REGION:         Census Region
+      DIVISION:       Census Division
+      STATECE:        State (Census Code)
+      STATE:          State (FIPS Code)
+      COUNTY:         County of current residence
+      COUSUB:         County Subdivision (FIPS)
+      PLACE:          Place (FIPS Code)
+      TRACT:          Census Tract
+      BLKGRP:         Block Group
+      CONCIT:         Consolidated City
+      AIANHH:         American Indian Area/Alaska Native Area/ Hawaiian Home Land (Census)
+      AIANHHFP:       American Indian Area/Alaska Native Area/ Hawaiian Home Land (FIPS)
+      AIHHTLI:        American Indian Trust Land/Hawaiian Home Land Indicator
+      AITSCE:         American Indian Tribal Subdivision (Census)
+      AITS:           American Indian Tribal Subdivision (FIPS)
+      ANRC:           Alaska Native Regional Corporation (FIPS)
+      CBSA:           Metropolitan and Micropolitan Statistical Area
+      CSA:            Combined Statistical Area
+      METDIV:         Metropolitan Statistical Area- Metropolitan Division
+      MACC:           Metropolitan Area Central City
+      MEMI:           Metropolitan/Micropolitan Indicator Flag
+      NECTA:          New England City and Town Area
+      CNECTA:         New England City and Town Combined Statistical Area
+      NECTADIV:       New England City and Town Area Division
+      UA:             Urban Area
+      UACP:           Urban Area Central Place
+      CDCURR:         Current Congressional District ***
+      SLDU:           State Legislative District Upper
+      SLDL:           State Legislative District Lower
+      VTD:            Voting District
+      ZCTA3:          ZIP Code Tabulation Area (3-digit)
+      ZCTA5:          5-digit ZIP Code Tabulation Area
+      SUBMCD:         Subminor Civil Division (FIPS)
+      SDELM:          State-School District (Elementary)
+      SDSEC:          State-School District (Secondary)
+      SDUNI:          State-School District (Unified)
+      UR:             Urban/Rural
+      PCI:            Principal City Indicator
+      TAZ:            Traffic Analysis Zone
+      UGA:            Urban Growth Area
+      PUMA5:          Public Use Microdata Area – 5% File
+      PUMA1:          Public Use Microdata Area - 1% File
+      GEOID:          Geographic Identifier
+      NAME:           Area Name
+      BTTR:           Tribal Tract
+      BTBG:           Tribal Block Group
+      PLACESE:        Place (State FIPS + Place FIPS)
+      A00001_001:     Total Population
+      A00002_001:     Total Population
+      A00002_002:     Population Density (Per Sq. Mile)
+      A00002_003:     Area (Land)
+      A00003_001:     Area Total:
+      A00003_002:     Area Total: Area (Land)
+      A00003_003:     Area Total: Area (Water)
+      A02001_001:     Total Population:
+      A02001_002:     Total Population: Male
+      A02001_003:     Total Population: Female
+      A01001_001:     Total Population:
+      A01001_002:     Total Population: Under 5 Years
+      A01001_003:     Total Population: 5 to 9 Years
+      A01001_004:     Total Population: 10 to 14 Years
+      A01001_005:     Total Population: 15 to 17 Years
+      A01001_006:     Total Population: 18 to 24 Years
+      A01001_007:     Total Population: 25 to 34 Years
+      A01001_008:     Total Population: 35 to 44 Years
+      A01001_009:     Total Population: 45 to 54 Years
+      A01001_010:     Total Population: 55 to 64 Years
+      A01001_011:     Total Population: 65 to 74 Years
+      A01001_012:     Total Population: 75 to 84 Years
+      A01001_013:     Total Population: 85 Years and Over
+      A01004_001:     Median Age:
+      A01004_002:     Median Age: Male Population
+      A01004_003:     Median Age: Female Population
+      A03001_001:     Total Population:
+      A03001_002:     Total Population: White Alone
+      A03001_003:     Total Population: Black or African American Alone
+      A03001_004:     Total Population: American Indian and Alaska Native Alone
+      A03001_005:     Total Population: Asian Alone
+      A03001_006:     Total Population: Native Hawaiian and Other Pacific Islander Alone
+      A03001_007:     Total Population: Some Other Race Alone
+      A03001_008:     Total Population: Two or More Races
+      A10008_001:     Households:
+      A10008_002:     Households: Family Households
+      A10008_003:     Households: Family Households: Married-Couple Family
+      A10008_004:     Households: Family Households: Other Family
+      A10008_005:     Households: Family Households: Other Family: Male Householder, No Wife Present
+      A10008_006:     Households: Family Households: Other Family: Female Householder, No Husband Present
+      A10008_007:     Households: Nonfamily Households
+      A10008_008:     Households: Nonfamily Households: Male Householder
+      A10008_009:     Households: Nonfamily Households: Female Householder
+      A10003_001:     Average Household Size
+      A19001_001:     Total Population:
+      A19001_002:     Total Population: Population in Group Quarters
+      A19001_003:     Total Population: Population Not in Group Quarters
+      A12002_001:     Population 25 Years and Over:
+      A12002_002:     Population 25 Years and Over: Less than High School
+      A12002_003:     Population 25 Years and Over: High School Graduate or More (Includes Equivalency)
+      A12002_004:     Population 25 Years and Over: Some College or More
+      A12002_005:     Population 25 Years and Over: Bachelor's Degree or More
+      A12002_006:     Population 25 Years and Over: Master's Degree or More
+      A12002_007:     Population 25 Years and Over: Professional School Degree or More
+      A12002_008:     Population 25 Years and Over: Doctorate Degree
+      A17005_001:     Civilian Population in Labor Force 16 Years and Over:
+      A17005_002:     Civilian Population in Labor Force 16 Years and Over: Employed
+      A17005_003:     Civilian Population in Labor Force 16 Years and Over: Unemployed
+      A14006_001:     Median Household Income (In 2020 Inflation Adjusted Dollars)
+      A10017_001:     Households:
+      A10017_002:     Households: with Social Security Income
+      A10017_003:     Households: No Social Security Income
+      A14024_001:     Per Capita Income (In 2020 Inflation Adjusted Dollars)
+      A18001_001:     Renter-Occupied Housing Units with Cash Rent:
+      A18001_002:     Renter-Occupied Housing Units with Cash Rent: Less than $300
+      A18001_003:     Renter-Occupied Housing Units with Cash Rent: $300 to $599
+      A18001_004:     Renter-Occupied Housing Units with Cash Rent: $600 to $799
+      A18001_005:     Renter-Occupied Housing Units with Cash Rent: $800 to $999
+      A18001_006:     Renter-Occupied Housing Units with Cash Rent: $1,000 to $1,249
+      A18001_007:     Renter-Occupied Housing Units with Cash Rent: $1,250 to $1,499
+      A18001_008:     Renter-Occupied Housing Units with Cash Rent: $1,500 to $1,999
+      A18001_009:     Renter-Occupied Housing Units with Cash Rent: $2,000 or More
+      A13002_001:     Families:
+      A13002_002:     Families: Income Below Poverty Level
+      A13002_003:     Families: Income Below Poverty Level: Married Couple Family: with Related Child Living  Bellow Poverty Level
+      A13002_004:     Families: Income Below Poverty Level: Married Couple Family: No Related Children Under 18 Years
+      A13002_005:     Families: Income Below Poverty Level: Male Householder, No Wife Present
+      A13002_006:     Families: Income Below Poverty Level: Male Householder, No Wife Present: with Related Children Under 18 Years
+      A13002_007:     Families: Income Below Poverty Level: Male Householder, No Wife Present: No Related Children Under 18 Years
+      A13002_008:     Families: Income Below Poverty Level: Female Householder, No Husband Present
+      A13002_009:     Families: Income Below Poverty Level: Female Householder, No Husband Present: with Related Children Under 18 Years
+      A13002_010:     Families: Income Below Poverty Level: Female Householder, No Husband Present: No Related Children Under 18 Years
+      A13002_011:     Families: Income At or Above Poverty Level
+      A13003A_001:    Population Under 18 Years of Age for Whom Poverty Status Is Determined:
+      A13003A_002:    Population Under 18 Years of Age for Whom Poverty Status Is Determined: Living in Poverty
+      A13003A_003:    Population Under 18 Years of Age for Whom Poverty Status Is Determined: At or Above Poverty Level
+      A13003B_001:    Population Age 18 to 64 for Whom Poverty Status  Is Determined:
+      A13003B_002:    Population Age 18 to 64 for Whom Poverty Status  Is Determined: Living in Poverty
+      A13003B_003:    Population Age 18 to 64 for Whom Poverty Status  Is Determined: At or Above Poverty Level
+      A13003C_001:    Population Age 65 and Over for Whom Poverty  Status Is Determined:
+      A13003C_002:    Population Age 65 and Over for Whom Poverty  Status Is Determined: Living in Poverty
+      A13003C_003:    Population Age 65 and Over for Whom Poverty  Status Is Determined: At or Above Poverty Level
+      A13004_001:     Population for Whom Poverty Status Is Determined:
+      A13004_002:     Population for Whom Poverty Status Is Determined: Under .50
+      A13004_003:     Population for Whom Poverty Status Is Determined: .50 to .74
+      A13004_004:     Population for Whom Poverty Status Is Determined: .75 to .99
+      A13004_005:     Population for Whom Poverty Status Is Determined: 1.00 to 1.49
+      A13004_006:     Population for Whom Poverty Status Is Determined: 1.50 to 1.99
+      A13004_007:     Population for Whom Poverty Status Is Determined: 2.00 and Over
+      A09005_001:     Workers 16 Years and Over:
+      A09005_002:     Workers 16 Years and Over: Car, Truck, or Van
+      A09005_009:     Workers 16 Years and Over: Drove Alone
+      A09005_010:     Workers 16 Years and Over: Carpooled
+      A09005_003:     Workers 16 Years and Over: Public Transportation (Includes Taxicab)
+      A09005_004:     Workers 16 Years and Over: Motorcycle
+      A09005_005:     Workers 16 Years and Over: Bicycle
+      A09005_006:     Workers 16 Years and Over: Walked
+      A09005_007:     Workers 16 Years and Over: Other Means
+      A09005_008:     Workers 16 Years and Over: Worked At Home
+      A10030_001:     Occupied Housing Units
+      A10030_002:     Occupied Housing Units: No Vehicle Available
+      A10030_003:     Occupied Housing Units: 1 Vehicle Available
+      A10030_004:     Occupied Housing Units: 2 Vehicles Available
+      A10030_005:     Occupied Housing Units: 3 Vehicles Available
+      A10030_006:     Occupied Housing Units: 4 Vehicles Available
+      A10030_007:     Occupied Housing Units: 5 or More Vehicles Available
+      A20001_001:     Total:
+      A20001_002:     Total: No Health Insurance Coverage
+      A20001_003:     Total: with Health Insurance Coverage
+      A20001_004:     Total: with Health Insurance Coverage: Public Health Coverage
+      A20001_005:     Total: with Health Insurance Coverage: Private Health Insurance
+      A10065_001:     Own Children under 18 Years
+      A10065_002:     Own Children under 18 Years: Children Living with Single Parents
+      B05001001:      Total
+      B05001002:      Total: U.S. Citizen Born In The United States
+      B05001003:      Total: U.S. Citizen Born In Puerto Rico or U.S. Island Areas
+      B05001004:      Total: U.S. Citizen Born Abroad Of American Parent(S)
+      B05001005:      Total: U.S. Citizen By Naturalization
+      B05001006:      Total: Not A U.S. Citizen
+      B05001001s:     Std. Error: Total
+      B05001002s:     Std. Error: Total: U.S. Citizen Born In The United States
+      B05001003s:     Std. Error: Total: U.S. Citizen Born In Puerto Rico or U.S. Island Areas
+      B05001004s:     Std. Error: Total: U.S. Citizen Born Abroad Of American Parent(S)
+      B05001005s:     Std. Error: Total: U.S. Citizen By Naturalization
+      B05001006s:     Std. Error: Total: Not A U.S. Citizen
+      C16002001:      Total
+      C16002002:      Total: English Only
+      C16002003:      Total: Spanish
+      C16002004:      Total: Spanish: Limited English Speaking Household
+      C16002005:      Total: Spanish: Not A Limited English Speaking Household
+      C16002006:      Total: Other Indo-European Languages
+      C16002007:      Total: Other Indo-European Languages: Limited English Speaking Household
+      C16002008:      Total: Other Indo-European Languages: Not A Limited English Speaking Household
+      C16002009:      Total: Asian And Pacific Island Languages
+      C16002010:      Total: Asian And Pacific Island Languages: Limited English Speaking Household
+      C16002011:      Total: Asian And Pacific Island Languages: Not A Limited English Speaking Household
+      C16002012:      Total: Other Languages
+      C16002013:      Total: Other Languages: Limited English Speaking Household
+      C16002014:      Total: Other Languages: Not A Limited English Speaking Household
+      C16002001s:     Std. Error: Total
+      C16002002s:     Std. Error: Total: English Only
+      C16002003s:     Std. Error: Total: Spanish
+      C16002004s:     Std. Error: Total: Spanish: Limited English Speaking Household
+      C16002005s:     Std. Error: Total: Spanish: Not A Limited English Speaking Household
+      C16002006s:     Std. Error: Total: Other Indo-European Languages
+      C16002007s:     Std. Error: Total: Other Indo-European Languages: Limited English Speaking Household
+      C16002008s:     Std. Error: Total: Other Indo-European Languages: Not A Limited English Speaking Household
+      C16002009s:     Std. Error: Total: Asian And Pacific Island Languages
+      C16002010s:     Std. Error: Total: Asian And Pacific Island Languages: Limited English Speaking Household
+      C16002011s:     Std. Error: Total: Asian And Pacific Island Languages: Not A Limited English Speaking Household
+      C16002012s:     Std. Error: Total: Other Languages
+      C16002013s:     Std. Error: Total: Other Languages: Limited English Speaking Household
+      C16002014s:     Std. Error: Total: Other Languages: Not A Limited English Speaking Household
+      B16005001:      Total
+      B16005002:      Total: Native
+      B16005003:      Total: Native: Speak Only English
+      B16005004:      Total: Native: Speak Spanish
+      B16005005:      Total: Native: Speak Spanish: Speak English """"Very Well""""
+      B16005006:      Total: Native: Speak Spanish: Speak English """"Well""""
+      B16005007:      Total: Native: Speak Spanish: Speak English """"Not Well""""
+      B16005008:      Total: Native: Speak Spanish: Speak English """"Not At All""""
+      B16005009:      Total:  Speak Other Indo-European Languages
+      B16005010:      Total:  Speak Other Indo-European Languages: Speak English """"Very Well""""
+      B16005011:      Total:  Speak Other Indo-European Languages: Speak English """"Well""""
+      B16005012:      Total:  Speak Other Indo-European Languages: Speak English """"Not Well""""
+      B16005013:      Total:  Speak Other Indo-European Languages: Speak English """"Not At All""""
+      B16005014:      Total:  Speak Asian And Pacific Island Languages
+      B16005015:      Total:  Speak Asian And Pacific Island Languages: Speak English """"Very Well""""
+      B16005016:      Total:  Speak Asian And Pacific Island Languages: Speak English """"Well""""
+      B16005017:      Total:  Speak Asian And Pacific Island Languages: Speak English """"Not Well""""
+      B16005018:      Total:  Speak Asian And Pacific Island Languages: Speak English """"Not At All""""
+      B16005019:      Total:  Speak Other Languages
+      B16005020:      Total:  Speak Other Languages: Speak English """"Very Well""""
+      B16005021:      Total:  Speak Other Languages: Speak English """"Well""""
+      B16005022:      Total:  Speak Other Languages: Speak English """"Not Well""""
+      B16005023:      Total:  Speak Other Languages: Speak English """"Not At All""""
+      B16005024:      Total: Foreign Born
+      B16005025:      Total: Foreign Born: Speak Only English
+      B16005026:      Total: Foreign Born: Speak Spanish
+      B16005027:      Total: Foreign Born: Speak Spanish: Speak English """"Very Well""""
+      B16005028:      Total: Foreign Born: Speak Spanish: Speak English """"Well""""
+      B16005029:      Total: Foreign Born: Speak Spanish: Speak English """"Not Well""""
+      B16005030:      Total: Foreign Born: Speak Spanish: Speak English """"Not At All""""
+      B16005031:      Total:  Speak Other Indo-European Languages
+      B16005032:      Total:  Speak Other Indo-European Languages: Speak English """"Very Well""""
+      B16005033:      Total:  Speak Other Indo-European Languages: Speak English """"Well""""
+      B16005034:      Total:  Speak Other Indo-European Languages: Speak English """"Not Well""""
+      B16005035:      Total:  Speak Other Indo-European Languages: Speak English """"Not At All""""
+      B16005036:      Total:  Speak Asian And Pacific Island Languages
+      B16005037:      Total:  Speak Asian And Pacific Island Languages: Speak English """"Very Well""""
+      B16005038:      Total:  Speak Asian And Pacific Island Languages: Speak English """"Well""""
+      B16005039:      Total:  Speak Asian And Pacific Island Languages: Speak English """"Not Well""""
+      B16005040:      Total:  Speak Asian And Pacific Island Languages: Speak English """"Not At All""""
+      B16005041:      Total:  Speak Other Languages
+      B16005042:      Total:  Speak Other Languages: Speak English """"Very Well""""
+      B16005043:      Total:  Speak Other Languages: Speak English """"Well""""
+      B16005044:      Total:  Speak Other Languages: Speak English """"Not Well""""
+      B16005045:      Total:  Speak Other Languages: Speak English """"Not At All""""
+      B16005001s:     Std. Error: Total
+      B16005002s:     Std. Error: Total: Native
+      B16005003s:     Std. Error: Total: Native: Speak Only English
+      B16005004s:     Std. Error: Total: Native: Speak Spanish
+      B16005005s:     Std. Error: Total: Native: Speak Spanish: Speak English """"Very Well""""
+      B16005006s:     Std. Error: Total: Native: Speak Spanish: Speak English """"Well""""
+      B16005007s:     Std. Error: Total: Native: Speak Spanish: Speak English """"Not Well""""
+      B16005008s:     Std. Error: Total: Native: Speak Spanish: Speak English """"Not At All""""
+      B16005009s:     Std. Error: Total:  Speak Other Indo-European Languages
+      B16005010s:     Std. Error: Total:  Speak Other Indo-European Languages: Speak English """"Very Well""""
+      B16005011s:     Std. Error: Total:  Speak Other Indo-European Languages: Speak English """"Well""""
+      B16005012s:     Std. Error: Total:  Speak Other Indo-European Languages: Speak English """"Not Well""""
+      B16005013s:     Std. Error: Total:  Speak Other Indo-European Languages: Speak English """"Not At All""""
+      B16005014s:     Std. Error: Total:  Speak Asian And Pacific Island Languages
+      B16005015s:     Std. Error: Total:  Speak Asian And Pacific Island Languages: Speak English """"Very Well""""
+      B16005016s:     Std. Error: Total:  Speak Asian And Pacific Island Languages: Speak English """"Well""""
+      B16005017s:     Std. Error: Total:  Speak Asian And Pacific Island Languages: Speak English """"Not Well""""
+      B16005018s:     Std. Error: Total:  Speak Asian And Pacific Island Languages: Speak English """"Not At All""""
+      B16005019s:     Std. Error: Total:  Speak Other Languages
+      B16005020s:     Std. Error: Total:  Speak Other Languages: Speak English """"Very Well""""
+      B16005021s:     Std. Error: Total:  Speak Other Languages: Speak English """"Well""""
+      B16005022s:     Std. Error: Total:  Speak Other Languages: Speak English """"Not Well""""
+      B16005023s:     Std. Error: Total:  Speak Other Languages: Speak English """"Not At All""""
+      B16005024s:     Std. Error: Total: Foreign Born
+      B16005025s:     Std. Error: Total: Foreign Born: Speak Only English
+      B16005026s:     Std. Error: Total: Foreign Born: Speak Spanish
+      B16005027s:     Std. Error: Total: Foreign Born: Speak Spanish: Speak English """"Very Well""""
+      B16005028s:     Std. Error: Total: Foreign Born: Speak Spanish: Speak English """"Well""""
+      B16005029s:     Std. Error: Total: Foreign Born: Speak Spanish: Speak English """"Not Well""""
+      B16005030s:     Std. Error: Total: Foreign Born: Speak Spanish: Speak English """"Not At All""""
+      B16005031s:     Std. Error: Total:  Speak Other Indo-European Languages
+      B16005032s:     Std. Error: Total:  Speak Other Indo-European Languages: Speak English """"Very Well""""
+      B16005033s:     Std. Error: Total:  Speak Other Indo-European Languages: Speak English """"Well""""
+      B16005034s:     Std. Error: Total:  Speak Other Indo-European Languages: Speak English """"Not Well""""
+      B16005035s:     Std. Error: Total:  Speak Other Indo-European Languages: Speak English """"Not At All""""
+      B16005036s:     Std. Error: Total:  Speak Asian And Pacific Island Languages
+      B16005037s:     Std. Error: Total:  Speak Asian And Pacific Island Languages: Speak English """"Very Well""""
+      B16005038s:     Std. Error: Total:  Speak Asian And Pacific Island Languages: Speak English """"Well""""
+      B16005039s:     Std. Error: Total:  Speak Asian And Pacific Island Languages: Speak English """"Not Well""""
+      B16005040s:     Std. Error: Total:  Speak Asian And Pacific Island Languages: Speak English """"Not At All""""
+      B16005041s:     Std. Error: Total:  Speak Other Languages
+      B16005042s:     Std. Error: Total:  Speak Other Languages: Speak English """"Very Well""""
+      B16005043s:     Std. Error: Total:  Speak Other Languages: Speak English """"Well""""
+      B16005044s:     Std. Error: Total:  Speak Other Languages: Speak English """"Not Well""""
+      B16005045s:     Std. Error: Total:  Speak Other Languages: Speak English """"Not At All""""
+      C18120001:      Total
+      C18120002:      Total: In The Labor Force
+      C18120003:      Total: In The Labor Force: Employed
+      C18120004:      Total: In The Labor Force: Employed: With A Disability
+      C18120005:      Total: In The Labor Force: Employed: No Disability
+      C18120006:      Total:  Unemployed
+      C18120007:      Total:  Unemployed: With A Disability
+      C18120008:      Total:  Unemployed: No Disability
+      C18120009:      Total: Not In Labor Force
+      C18120010:      Total: Not In Labor Force: With A Disability
+      C18120011:      Total: Not In Labor Force: No Disability
+      C18120001s:     Std. Error: Total
+      C18120002s:     Std. Error: Total: In The Labor Force
+      C18120003s:     Std. Error: Total: In The Labor Force: Employed
+      C18120004s:     Std. Error: Total: In The Labor Force: Employed: With A Disability
+      C18120005s:     Std. Error: Total: In The Labor Force: Employed: No Disability
+      C18120006s:     Std. Error: Total:  Unemployed
+      C18120007s:     Std. Error: Total:  Unemployed: With A Disability
+      C18120008s:     Std. Error: Total:  Unemployed: No Disability
+      C18120009s:     Std. Error: Total: Not In Labor Force
+      C18120010s:     Std. Error: Total: Not In Labor Force: With A Disability
+      C18120011s:     Std. Error: Total: Not In Labor Force: No Disability
+      B23018001:      Aggregate Usual Hours
+      B23018002:      Aggregate Usual Hours: Male
+      B23018003:      Aggregate Usual Hours: Female
+      B23018001s:     Std. Error: Aggregate Usual Hours
+      B23018002s:     Std. Error: Aggregate Usual Hours: Male
+      B23018003s:     Std. Error: Aggregate Usual Hours: Female
+      C24050001:      Total
+      C24050002:      Total: Agriculture Forestry Fishing And Hunting And Mining
+      C24050003:      Total: Construction
+      C24050004:      Total: Manufacturing
+      C24050005:      Total: Wholesale Trade
+      C24050006:      Total: Retail Trade
+      C24050007:      Total: Transportation And Warehousing And Utilities
+      C24050008:      Total: Information
+      C24050009:      Total: Fice And Insurance And Real Estate And Rental And Leasing
+      C24050010:      Total: Professional Scientific And Management And Administrative And Waste Management Services
+      C24050011:      Total: Educational Services And Health Care And Social Assistance
+      C24050012:      Total: Arts Entertainment And Recreation And Accommodation And Food Services
+      C24050013:      Total: Other Services Except Public Administration
+      C24050014:      Total: Public Administration
+      C24050015:      Total: Management Business Science And Arts Occupations
+      C24050016:      Total: Management Business Science And Arts Occupations: Agriculture Forestry Fishing And Hunting And Mining
+      C24050017:      Total: Management Business Science And Arts Occupations: Construction
+      C24050018:      Total: Management Business Science And Arts Occupations: Manufacturing
+      C24050019:      Total: Management Business Science And Arts Occupations: Wholesale Trade
+      C24050020:      Total: Management Business Science And Arts Occupations: Retail Trade
+      C24050021:      Total: Management Business Science And Arts Occupations: Transportation And Warehousing And Utilities
+      C24050022:      Total: Management Business Science And Arts Occupations: Information
+      C24050023:      Total: Management Business Science And Arts Occupations: Fice And Insurance And Real Estate And Rental And Leasing
+      C24050024:      Total: Management Business Science And Arts Occupations: Professional Scientific And Management And Administrative And Waste Management Services
+      C24050025:      Total: Management Business Science And Arts Occupations: Educational Services And Health Care And Social Assistance
+      C24050026:      Total: Management Business Science And Arts Occupations: Arts Entertainment And Recreation And Accommodation And Food Services
+      C24050027:      Total: Management Business Science And Arts Occupations: Other Services Except Public Administration
+      C24050028:      Total: Management Business Science And Arts Occupations: Public Administration
+      C24050029:      Total: Service Occupations
+      C24050030:      Total: Service Occupations: Agriculture Forestry Fishing And Hunting And Mining
+      C24050031:      Total: Service Occupations: Construction
+      C24050032:      Total: Service Occupations: Manufacturing
+      C24050033:      Total: Service Occupations: Wholesale Trade
+      C24050034:      Total: Service Occupations: Retail Trade
+      C24050035:      Total: Service Occupations: Transportation And Warehousing And Utilities
+      C24050036:      Total: Service Occupations: Information
+      C24050037:      Total: Service Occupations: Fice And Insurance And Real Estate And Rental And Leasing
+      C24050038:      Total: Service Occupations: Professional Scientific And Management And Administrative And Waste Management Services
+      C24050039:      Total: Service Occupations: Educational Services And Health Care And Social Assistance
+      C24050040:      Total: Service Occupations: Arts Entertainment And Recreation And Accommodation And Food Services
+      C24050041:      Total: Service Occupations: Other Services Except Public Administration
+      C24050042:      Total: Service Occupations: Public Administration
+      C24050043:      Total: Sales And Office Occupations
+      C24050044:      Total: Sales And Office Occupations: Agriculture Forestry Fishing And Hunting And Mining
+      C24050045:      Total: Sales And Office Occupations: Construction
+      C24050046:      Total: Sales And Office Occupations: Manufacturing
+      C24050047:      Total: Sales And Office Occupations: Wholesale Trade
+      C24050048:      Total: Sales And Office Occupations: Retail Trade
+      C24050049:      Total: Sales And Office Occupations: Transportation And Warehousing And Utilities
+      C24050050:      Total: Sales And Office Occupations: Information
+      C24050051:      Total: Sales And Office Occupations: Fice And Insurance And Real Estate And Rental And Leasing
+      C24050052:      Total: Sales And Office Occupations: Professional Scientific And Management And Administrative And Waste Management Services
+      C24050053:      Total: Sales And Office Occupations: Educational Services And Health Care And Social Assistance
+      C24050054:      Total: Sales And Office Occupations: Arts Entertainment And Recreation And Accommodation And Food Services
+      C24050055:      Total: Sales And Office Occupations: Other Services Except Public Administration
+      C24050056:      Total: Sales And Office Occupations: Public Administration
+      C24050057:      Total: Natural Resources Construction And Maintece Occupations
+      C24050058:      Total: Natural Resources Construction And Maintece Occupations: Agriculture Forestry Fishing And Hunting And Mining
+      C24050059:      Total: Natural Resources Construction And Maintece Occupations: Construction
+      C24050060:      Total: Natural Resources Construction And Maintece Occupations: Manufacturing
+      C24050061:      Total: Natural Resources Construction And Maintece Occupations: Wholesale Trade
+      C24050062:      Total: Natural Resources Construction And Maintece Occupations: Retail Trade
+      C24050063:      Total: Natural Resources Construction And Maintece Occupations: Transportation And Warehousing And Utilities
+      C24050064:      Total: Natural Resources Construction And Maintece Occupations: Information
+      C24050065:      Total: Natural Resources Construction And Maintece Occupations: Fice And Insurance And Real Estate And Rental And Leasing
+      C24050066:      Total: Natural Resources Construction And Maintece Occupations: Professional Scientific And Management And Administrative And Waste Management Services
+      C24050067:      Total: Natural Resources Construction And Maintece Occupations: Educational Services And Health Care And Social Assistance
+      C24050068:      Total: Natural Resources Construction And Maintece Occupations: Arts Entertainment And Recreation And Accommodation And Food Services
+      C24050069:      Total: Natural Resources Construction And Maintece Occupations: Other Services Except Public Administration
+      C24050070:      Total: Natural Resources Construction And Maintece Occupations: Public Administration
+      C24050071:      Total: Production Transportation And Material Moving Occupations
+      C24050072:      Total: Production Transportation And Material Moving Occupations: Agriculture Forestry Fishing And Hunting And Mining
+      C24050073:      Total: Production Transportation And Material Moving Occupations: Construction
+      C24050074:      Total: Production Transportation And Material Moving Occupations: Manufacturing
+      C24050075:      Total: Production Transportation And Material Moving Occupations: Wholesale Trade
+      C24050076:      Total: Production Transportation And Material Moving Occupations: Retail Trade
+      C24050077:      Total: Production Transportation And Material Moving Occupations: Transportation And Warehousing And Utilities
+      C24050078:      Total: Production Transportation And Material Moving Occupations: Information
+      C24050079:      Total: Production Transportation And Material Moving Occupations: Fice And Insurance And Real Estate And Rental And Leasing
+      C24050080:      Total: Production Transportation And Material Moving Occupations: Professional Scientific And Management And Administrative And Waste Management Services
+      C24050081:      Total: Production Transportation And Material Moving Occupations: Educational Services And Health Care And Social Assistance
+      C24050082:      Total: Production Transportation And Material Moving Occupations: Arts Entertainment And Recreation And Accommodation And Food Services
+      C24050083:      Total: Production Transportation And Material Moving Occupations: Other Services Except Public Administration
+      C24050084:      Total: Production Transportation And Material Moving Occupations: Public Administration
+      C24050001s:     Std. Error: Total
+      C24050002s:     Std. Error: Total: Agriculture Forestry Fishing And Hunting And Mining
+      C24050003s:     Std. Error: Total: Construction
+      C24050004s:     Std. Error: Total: Manufacturing
+      C24050005s:     Std. Error: Total: Wholesale Trade
+      C24050006s:     Std. Error: Total: Retail Trade
+      C24050007s:     Std. Error: Total: Transportation And Warehousing And Utilities
+      C24050008s:     Std. Error: Total: Information
+      C24050009s:     Std. Error: Total: Fice And Insurance And Real Estate And Rental And Leasing
+      C24050010s:     Std. Error: Total: Professional Scientific And Management And Administrative And Waste Management Services
+      C24050011s:     Std. Error: Total: Educational Services And Health Care And Social Assistance
+      C24050012s:     Std. Error: Total: Arts Entertainment And Recreation And Accommodation And Food Services
+      C24050013s:     Std. Error: Total: Other Services Except Public Administration
+      C24050014s:     Std. Error: Total: Public Administration
+      C24050015s:     Std. Error: Total: Management Business Science And Arts Occupations
+      C24050016s:     Std. Error: Total: Management Business Science And Arts Occupations: Agriculture Forestry Fishing And Hunting And Mining
+      C24050017s:     Std. Error: Total: Management Business Science And Arts Occupations: Construction
+      C24050018s:     Std. Error: Total: Management Business Science And Arts Occupations: Manufacturing
+      C24050019s:     Std. Error: Total: Management Business Science And Arts Occupations: Wholesale Trade
+      C24050020s:     Std. Error: Total: Management Business Science And Arts Occupations: Retail Trade
+      C24050021s:     Std. Error: Total: Management Business Science And Arts Occupations: Transportation And Warehousing And Utilities
+      C24050022s:     Std. Error: Total: Management Business Science And Arts Occupations: Information
+      C24050023s:     Std. Error: Total: Management Business Science And Arts Occupations: Fice And Insurance And Real Estate And Rental And Leasing
+      C24050024s:     Std. Error: Total: Management Business Science And Arts Occupations: Professional Scientific And Management And Administrative And Waste Management Services
+      C24050025s:     Std. Error: Total: Management Business Science And Arts Occupations: Educational Services And Health Care And Social Assistance
+      C24050026s:     Std. Error: Total: Management Business Science And Arts Occupations: Arts Entertainment And Recreation And Accommodation And Food Services
+      C24050027s:     Std. Error: Total: Management Business Science And Arts Occupations: Other Services Except Public Administration
+      C24050028s:     Std. Error: Total: Management Business Science And Arts Occupations: Public Administration
+      C24050029s:     Std. Error: Total: Service Occupations
+      C24050030s:     Std. Error: Total: Service Occupations: Agriculture Forestry Fishing And Hunting And Mining
+      C24050031s:     Std. Error: Total: Service Occupations: Construction
+      C24050032s:     Std. Error: Total: Service Occupations: Manufacturing
+      C24050033s:     Std. Error: Total: Service Occupations: Wholesale Trade
+      C24050034s:     Std. Error: Total: Service Occupations: Retail Trade
+      C24050035s:     Std. Error: Total: Service Occupations: Transportation And Warehousing And Utilities
+      C24050036s:     Std. Error: Total: Service Occupations: Information
+      C24050037s:     Std. Error: Total: Service Occupations: Fice And Insurance And Real Estate And Rental And Leasing
+      C24050038s:     Std. Error: Total: Service Occupations: Professional Scientific And Management And Administrative And Waste Management Services
+      C24050039s:     Std. Error: Total: Service Occupations: Educational Services And Health Care And Social Assistance
+      C24050040s:     Std. Error: Total: Service Occupations: Arts Entertainment And Recreation And Accommodation And Food Services
+      C24050041s:     Std. Error: Total: Service Occupations: Other Services Except Public Administration
+      C24050042s:     Std. Error: Total: Service Occupations: Public Administration
+      C24050043s:     Std. Error: Total: Sales And Office Occupations
+      C24050044s:     Std. Error: Total: Sales And Office Occupations: Agriculture Forestry Fishing And Hunting And Mining
+      C24050045s:     Std. Error: Total: Sales And Office Occupations: Construction
+      C24050046s:     Std. Error: Total: Sales And Office Occupations: Manufacturing
+      C24050047s:     Std. Error: Total: Sales And Office Occupations: Wholesale Trade
+      C24050048s:     Std. Error: Total: Sales And Office Occupations: Retail Trade
+      C24050049s:     Std. Error: Total: Sales And Office Occupations: Transportation And Warehousing And Utilities
+      C24050050s:     Std. Error: Total: Sales And Office Occupations: Information
+      C24050051s:     Std. Error: Total: Sales And Office Occupations: Fice And Insurance And Real Estate And Rental And Leasing
+      C24050052s:     Std. Error: Total: Sales And Office Occupations: Professional Scientific And Management And Administrative And Waste Management Services
+      C24050053s:     Std. Error: Total: Sales And Office Occupations: Educational Services And Health Care And Social Assistance
+      C24050054s:     Std. Error: Total: Sales And Office Occupations: Arts Entertainment And Recreation And Accommodation And Food Services
+      C24050055s:     Std. Error: Total: Sales And Office Occupations: Other Services Except Public Administration
+      C24050056s:     Std. Error: Total: Sales And Office Occupations: Public Administration
+      C24050057s:     Std. Error: Total: Natural Resources Construction And Maintece Occupations
+      C24050058s:     Std. Error: Total: Natural Resources Construction And Maintece Occupations: Agriculture Forestry Fishing And Hunting And Mining
+      C24050059s:     Std. Error: Total: Natural Resources Construction And Maintece Occupations: Construction
+      C24050060s:     Std. Error: Total: Natural Resources Construction And Maintece Occupations: Manufacturing
+      C24050061s:     Std. Error: Total: Natural Resources Construction And Maintece Occupations: Wholesale Trade
+      C24050062s:     Std. Error: Total: Natural Resources Construction And Maintece Occupations: Retail Trade
+      C24050063s:     Std. Error: Total: Natural Resources Construction And Maintece Occupations: Transportation And Warehousing And Utilities
+      C24050064s:     Std. Error: Total: Natural Resources Construction And Maintece Occupations: Information
+      C24050065s:     Std. Error: Total: Natural Resources Construction And Maintece Occupations: Fice And Insurance And Real Estate And Rental And Leasing
+      C24050066s:     Std. Error: Total: Natural Resources Construction And Maintece Occupations: Professional Scientific And Management And Administrative And Waste Management Services
+      C24050067s:     Std. Error: Total: Natural Resources Construction And Maintece Occupations: Educational Services And Health Care And Social Assistance
+      C24050068s:     Std. Error: Total: Natural Resources Construction And Maintece Occupations: Arts Entertainment And Recreation And Accommodation And Food Services
+      C24050069s:     Std. Error: Total: Natural Resources Construction And Maintece Occupations: Other Services Except Public Administration
+      C24050070s:     Std. Error: Total: Natural Resources Construction And Maintece Occupations: Public Administration
+      C24050071s:     Std. Error: Total: Production Transportation And Material Moving Occupations
+      C24050072s:     Std. Error: Total: Production Transportation And Material Moving Occupations: Agriculture Forestry Fishing And Hunting And Mining
+      C24050073s:     Std. Error: Total: Production Transportation And Material Moving Occupations: Construction
+      C24050074s:     Std. Error: Total: Production Transportation And Material Moving Occupations: Manufacturing
+      C24050075s:     Std. Error: Total: Production Transportation And Material Moving Occupations: Wholesale Trade
+      C24050076s:     Std. Error: Total: Production Transportation And Material Moving Occupations: Retail Trade
+      C24050077s:     Std. Error: Total: Production Transportation And Material Moving Occupations: Transportation And Warehousing And Utilities
+      C24050078s:     Std. Error: Total: Production Transportation And Material Moving Occupations: Information
+      C24050079s:     Std. Error: Total: Production Transportation And Material Moving Occupations: Fice And Insurance And Real Estate And Rental And Leasing
+      C24050080s:     Std. Error: Total: Production Transportation And Material Moving Occupations: Professional Scientific And Management And Administrative And Waste Management Services
+      C24050081s:     Std. Error: Total: Production Transportation And Material Moving Occupations: Educational Services And Health Care And Social Assistance
+      C24050082s:     Std. Error: Total: Production Transportation And Material Moving Occupations: Arts Entertainment And Recreation And Accommodation And Food Services
+      C24050083s:     Std. Error: Total: Production Transportation And Material Moving Occupations: Other Services Except Public Administration
+      C24050084s:     Std. Error: Total: Production Transportation And Material Moving Occupations: Public Administration
+      B25024001:      Total
+      B25024002:      Total: 1 Detached
+      B25024003:      Total: 1 Attached
+      B25024004:      Total: 2
+      B25024005:      Total: 3 or 4
+      B25024006:      Total: 5 To 9
+      B25024007:      Total: 10 To 19
+      B25024008:      Total: 20 To 49
+      B25024009:      Total: 50 or More
+      B25024010:      Total: Mobile Home
+      B25024011:      Total: Boat Rv Van Etc.
+      B25024001s:     Std. Error: Total
+      B25024002s:     Std. Error: Total: 1 Detached
+      B25024003s:     Std. Error: Total: 1 Attached
+      B25024004s:     Std. Error: Total: 2
+      B25024005s:     Std. Error: Total: 3 or 4
+      B25024006s:     Std. Error: Total: 5 To 9
+      B25024007s:     Std. Error: Total: 10 To 19
+      B25024008s:     Std. Error: Total: 20 To 49
+      B25024009s:     Std. Error: Total: 50 or More
+      B25024010s:     Std. Error: Total: Mobile Home
+      B25024011s:     Std. Error: Total: Boat Rv Van Etc.
+      B25034001:      Total
+      B25034002:      Total: Built 2014 or Later
+      B25034003:      Total: Built 2010 To 2013
+      B25034004:      Total: Built 2000 To 2009
+      B25034005:      Total: Built 1990 To 1999
+      B25034006:      Total: Built 1980 To 1989
+      B25034007:      Total: Built 1970 To 1979
+      B25034008:      Total: Built 1960 To 1969
+      B25034009:      Total: Built 1950 To 1959
+      B25034010:      Total: Built 1940 To 1949
+      B25034011:      Total: Built 1939 or Earlier
+      B25034001s:     Std. Error: Total
+      B25034002s:     Std. Error: Total: Built 2014 or Later
+      B25034003s:     Std. Error: Total: Built 2010 To 2013
+      B25034004s:     Std. Error: Total: Built 2000 To 2009
+      B25034005s:     Std. Error: Total: Built 1990 To 1999
+      B25034006s:     Std. Error: Total: Built 1980 To 1989
+      B25034007s:     Std. Error: Total: Built 1970 To 1979
+      B25034008s:     Std. Error: Total: Built 1960 To 1969
+      B25034009s:     Std. Error: Total: Built 1950 To 1959
+      B25034010s:     Std. Error: Total: Built 1940 To 1949
+      B25034011s:     Std. Error: Total: Built 1939 or Earlier
+      B25047001:      Total
+      B25047002:      Total: Complete Plumbing Facilities
+      B25047003:      Total: Lacking Complete Plumbing Facilities
+      B25047001s:     Std. Error: Total
+      B25047002s:     Std. Error: Total: Complete Plumbing Facilities
+      B25047003s:     Std. Error: Total: Lacking Complete Plumbing Facilities
+      B25051001:      Total
+      B25051002:      Total: Complete Kitchen Facilities
+      B25051003:      Total: Lacking Complete Kitchen Facilities
+      B25051001s:     Std. Error: Total
+      B25051002s:     Std. Error: Total: Complete Kitchen Facilities
+      B25051003s:     Std. Error: Total: Lacking Complete Kitchen Facilities
+      B25077001:      Median Value (Dollars)
+      B25077001s:     Std. Error: Median Value (Dollars)
+      B28008001:      Total
+      B28008002:      Total: Has A Computer
+      B28008003:      Total: Has A Computer: With Dial-Up Internet Subscription Alone
+      B28008004:      Total: Has A Computer: With A Broadband Subscription
+      B28008005:      Total: Has A Computer: With A Broadband Subscription: With A Fixed Broadband Internet Subscription
+      B28008006:      Total: Has A Computer: With A Broadband Subscription: With A Fixed Broadband Internet Subscription: With A Cellular Data Plan
+      B28008007:      Total: Has A Computer: With A Broadband Subscription: With A Fixed Broadband Internet Subscription: Without A Cellular Data Plan
+      B28008008:      Total:   Cellular Data Plan Alone or With Dial-Up
+      B28008009:      Total:  Without Internet Subscription
+      B28008010:      Total: No Computer
+      B28008001s:     Std. Error: Total
+      B28008002s:     Std. Error: Total: Has A Computer
+      B28008003s:     Std. Error: Total: Has A Computer: With Dial-Up Internet Subscription Alone
+      B28008004s:     Std. Error: Total: Has A Computer: With A Broadband Subscription
+      B28008005s:     Std. Error: Total: Has A Computer: With A Broadband Subscription: With A Fixed Broadband Internet Subscription
+      B28008006s:     Std. Error: Total: Has A Computer: With A Broadband Subscription: With A Fixed Broadband Internet Subscription: With A Cellular Data Plan
+      B28008007s:     Std. Error: Total: Has A Computer: With A Broadband Subscription: With A Fixed Broadband Internet Subscription: Without A Cellular Data Plan
+      B28008008s:     Std. Error: Total:   Cellular Data Plan Alone or With Dial-Up
+      B28008009s:     Std. Error: Total:  Without Internet Subscription
+      B28008010s:     Std. Error: Total: No Computer
+      B28010001:      Total
+      B28010002:      Total: Has One or More Types Of Computing Devices
+      B28010003:      Total: Has One or More Types Of Computing Devices: Desktop or Laptop
+      B28010004:      Total: Has One or More Types Of Computing Devices: Desktop or Laptop  Desktop or Laptop Alone
+      B28010005:      Total:  Smartphone Tablet or Other Portable Wireless Computer or Other Computer
+      B28010006:      Total:  Smartphone Tablet or Other Portable Wireless Computer or Other Computer Smartphone Tablet or Other Portable Wireless Computer or Other Computer No Desktop or Laptop
+      B28010007:      Total: No Computer
+      B28010001s:     Std. Error: Total
+      B28010002s:     Std. Error: Total: Has One or More Types Of Computing Devices
+      B28010003s:     Std. Error: Total: Has One or More Types Of Computing Devices: Desktop or Laptop
+      B28010004s:     Std. Error: Total: Has One or More Types Of Computing Devices: Desktop or Laptop  Desktop or Laptop Alone
+      B28010005s:     Std. Error: Total:  Smartphone Tablet or Other Portable Wireless Computer or Other Computer
+      B28010006s:     Std. Error: Total:  Smartphone Tablet or Other Portable Wireless Computer or Other Computer Smartphone Tablet or Other Portable Wireless Computer or Other Computer No Desktop or Laptop
+      B28010007s:     Std. Error: Total: No Computer
+
+
+
+
+--------------------------------------------------------------------------------
+Citation and Use of Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing the data
+  must cite it appropriately. The citation should include the following:
+
+	  www.socialexplorer.com
+	  New York City, NY: Social Explorer 2022
+
+
+* Citations should also include the URL for this report:
+
+    http://www.socialexplorer.com/pub/reportdata/HtmlResults.aspx?reportid=R13120292
+
+If you have any questions contact info@socialexplorer.com

@@ -1,0 +1,317 @@
+FIPS,       FIPS
+QName,      Qualifying Name
+FILEID,     File identification
+STUSAB,     State Postal Abbreviation
+SUMLEV,     Summary Level
+GEOCOMP,    Geographic Component
+LOGRECNO,   Logical Record Number
+US,         US
+REGION,     Census Region
+DIVISION,   Census Division
+STATECE,    State (Census Code)
+STATE,      State (FIPS Code)
+COUNTY,     County of current residence
+COUSUB,     County Subdivision (FIPS)
+PLACE,      Place (FIPS Code)
+TRACT,      Census Tract
+BLKGRP,     Block Group
+CONCIT,     Consolidated City
+AIANHH,     American Indian Area/AlaskaNative Area/ Hawaiian Home Land(Census)
+AIANHHFP,   American Indian Area/AlaskaNative Area/ Hawaiian Home Land(FIPS)
+AIHHTLI,    American Indian Trust Land/Hawaiian Home Land Indicator
+AITSCE,     American Indian TribalSubdivision (Census)
+AITS,       American Indian TribalSubdivision (FIPS)
+ANRC,       Alaska Native RegionalCorporation (FIPS)
+CBSA,       Metropolitan and MicropolitanStatistical Area
+CSA,        Combined Statistical Area
+METDIV,     Metropolitan Statistical Area-Metropolitan Division
+MACC,       Metropolitan Area Central City
+MEMI,       Metropolitan/MicropolitanIndicator Flag
+NECTA,      New England City and Town Area
+CNECTA,     New England City and TownCombined Statistical Area
+NECTADIV,   New England City and Town AreaDivision
+UA,         Urban Area
+UACP,       Urban Area Central Place
+CDCURR,     Current Congressional District ***
+SLDU,       State Legislative District Upper
+SLDL,       State Legislative District Lower
+VTD,        Voting District
+ZCTA3,      ZIP Code Tabulation Area (3-digit)
+ZCTA5,      5-digit ZIP Code Tabulation Area
+SUBMCD,     Subminor Civil Division (FIPS)
+SDELM,      State-School District (Elementary)
+SDSEC,      State-School District (Secondary)
+SDUNI,      State-School District (Unified)
+UR,         Urban/Rural
+PCI,        Principal City Indicator
+TAZ,        Traffic Analysis Zone
+UGA,        Urban Growth Area
+PUMA5,      Public Use Microdata Area – 5%File
+PUMA1,      Public Use Microdata Area - 1% File
+GEOID,      Geographic Identifier
+NAME,       Area Name
+BTTR,       Tribal Tract
+BTBG,       Tribal Block Group
+PLACESE,    Place (State FIPS + Place FIPS)
+A00002_001, Total Population
+A00002_002, Population Density (Per Sq. Mile)
+A00002_003, Area (Land)
+A02001_001, Total Population:
+A02001_002, Total Population: Male
+A02001_003, Total Population: Female
+A01001_001, Total Population:
+A01001_002, Total Population: Under 5 Years
+A01001_003, Total Population: 5 to 9 Years
+A01001_004, Total Population: 10 to 14 Years
+A01001_005, Total Population: 15 to 17 Years
+A01001_006, Total Population: 18 to 24 Years
+A01001_007, Total Population: 25 to 34 Years
+A01001_008, Total Population: 35 to 44 Years
+A01001_009, Total Population: 45 to 54 Years
+A01001_010, Total Population: 55 to 64 Years
+A01001_011, Total Population: 65 to 74 Years
+A01001_012, Total Population: 75 to 84 Years
+A01001_013, Total Population: 85 Years and Over
+A01004_001, Median Age:
+A01004_002, Median Age: Male Population
+A01004_003, Median Age: Female Population
+A03001_001, Total Population:
+A03001_002, Total Population: White Alone
+A03001_003, Total Population: Black or African American Alone
+A03001_004, Total Population: American Indian and Alaska Native Alone
+A03001_005, Total Population: Asian Alone
+A03001_006, Total Population: Native Hawaiian and Other Pacific Islander Alone
+A03001_007, Total Population: Some Other Race Alone
+A03001_008, Total Population: Two or More Races
+A10008_001, Households:
+A10008_002, Households: Family Households
+A10008_003, Households: Family Households: Married-Couple Family
+A10008_004, Households: Family Households: Other Family
+A10008_005, Households: Family Households: Other Family: Male Householder, No Wife Present
+A10008_006, Households: Family Households: Other Family: Female Householder, No Husband Present
+A10008_007, Households: Nonfamily Households
+A10008_008, Households: Nonfamily Households: Male Householder
+A10008_009, Households: Nonfamily Households: Female Householder
+A10003_001, Average Household Size
+A19001_001, Total Population:
+A19001_002, Total Population: Population in Group Quarters
+A19001_003, Total Population: Population Not in Group Quarters
+A12002_001, Population 25 Years and Over:
+A12002_002, Population 25 Years and Over: Less than High School
+A12002_003, Population 25 Years and Over: High School Graduate or More (Includes Equivalency)
+A12002_004, Population 25 Years and Over: Some College or More
+A12002_005, Population 25 Years and Over: Bachelor's Degree or More
+A12002_006, Population 25 Years and Over: Master's Degree or More
+A12002_007, Population 25 Years and Over: Professional School Degree or More
+A12002_008, Population 25 Years and Over: Doctorate Degree
+A17005_001, Civilian Population in Labor Force 16 Years and Over:
+A17005_002, Civilian Population in Labor Force 16 Years and Over: Employed
+A17005_003, Civilian Population in Labor Force 16 Years and Over: Unemployed
+A14006_001, Median Household Income (In 2020 Inflation Adjusted Dollars)
+A10017_001, Households:
+A10017_002, Households: with Social Security Income
+A10017_003, Households: No Social Security Income
+A14024_001, Per Capita Income (In 2020 Inflation Adjusted Dollars)
+A18001_001, Renter-Occupied Housing Units with Cash Rent:
+A18001_002, Renter-Occupied Housing Units with Cash Rent: Less than $300
+A18001_003, Renter-Occupied Housing Units with Cash Rent: $300 to $599
+A18001_004, Renter-Occupied Housing Units with Cash Rent: $600 to $799
+A18001_005, Renter-Occupied Housing Units with Cash Rent: $800 to $999
+A18001_006, Renter-Occupied Housing Units with Cash Rent: $1,000 to $1,249
+A18001_007, Renter-Occupied Housing Units with Cash Rent: $1,250 to $1,499
+A18001_008, Renter-Occupied Housing Units with Cash Rent: $1,500 to $1,999
+A18001_009, Renter-Occupied Housing Units with Cash Rent: $2,000 or More
+A13002_001, Families:
+A13002_002, Families: Income Below Poverty Level
+A13002_003, Families: Income Below Poverty Level: Married Couple Family: with Related Child Living  Bellow Poverty Level
+A13002_004, Families: Income Below Poverty Level: Married Couple Family: No Related Children Under 18 Years
+A13002_005, Families: Income Below Poverty Level: Male Householder, No Wife Present
+A13002_006, Families: Income Below Poverty Level: Male Householder, No Wife Present: with Related Children Under 18 Years
+A13002_007, Families: Income Below Poverty Level: Male Householder, No Wife Present: No Related Children Under 18 Years
+A13002_008, Families: Income Below Poverty Level: Female Householder, No Husband Present
+A13002_009, Families: Income Below Poverty Level: Female Householder, No Husband Present: with Related Children Under 18 Years
+A13002_010, Families: Income Below Poverty Level: Female Householder, No Husband Present: No Related Children Under 18 Years
+A13002_011, Families: Income At or Above Poverty Level
+A13003A_001,Population Under 18 Years of Age for Whom Poverty Status Is Determined:
+A13003A_002,Population Under 18 Years of Age for Whom Poverty Status Is Determined: Living in Poverty
+A13003A_003,Population Under 18 Years of Age for Whom Poverty Status Is Determined: At or Above Poverty Level
+A13003B_001,Population Age 18 to 64 for Whom Poverty Status  Is Determined:
+A13003B_002,Population Age 18 to 64 for Whom Poverty Status  Is Determined: Living in Poverty
+A13003B_003,Population Age 18 to 64 for Whom Poverty Status  Is Determined: At or Above Poverty Level
+A13003C_001,Population Age 65 and Over for Whom Poverty  Status Is Determined:
+A13003C_002,Population Age 65 and Over for Whom Poverty  Status Is Determined: Living in Poverty
+A13003C_003,Population Age 65 and Over for Whom Poverty  Status Is Determined: At or Above Poverty Level
+A13004_001, Population for Whom Poverty Status Is Determined:
+A13004_002, Population for Whom Poverty Status Is Determined: Under .50
+A13004_003, Population for Whom Poverty Status Is Determined: .50 to .74
+A13004_004, Population for Whom Poverty Status Is Determined: .75 to .99
+A13004_005, Population for Whom Poverty Status Is Determined: 1.00 to 1.49
+A13004_006, Population for Whom Poverty Status Is Determined: 1.50 to 1.99
+A13004_007, Population for Whom Poverty Status Is Determined: 2.00 and Over
+A09005_001, Workers 16 Years and Over:
+A09005_002, Workers 16 Years and Over: Car, Truck, or Van
+A09005_009, Workers 16 Years and Over: Drove Alone
+A09005_010, Workers 16 Years and Over: Carpooled
+A09005_003, Workers 16 Years and Over: Public Transportation (Includes Taxicab)
+A09005_004, Workers 16 Years and Over: Motorcycle
+A09005_005, Workers 16 Years and Over: Bicycle
+A09005_006, Workers 16 Years and Over: Walked
+A09005_007, Workers 16 Years and Over: Other Means
+A09005_008, Workers 16 Years and Over: Worked At Home
+A10030_001, Occupied Housing Units
+A10030_002, Occupied Housing Units: No Vehicle Available
+A10030_003, Occupied Housing Units: 1 Vehicle Available
+A10030_004, Occupied Housing Units: 2 Vehicles Available
+A10030_005, Occupied Housing Units: 3 Vehicles Available
+A10030_006, Occupied Housing Units: 4 Vehicles Available
+A10030_007, Occupied Housing Units: 5 or More Vehicles Available
+A20001_001, Total:
+A20001_002, Total: No Health Insurance Coverage
+A20001_003, Total: with Health Insurance Coverage
+A20001_004, Total: with Health Insurance Coverage: Public Health Coverage
+A20001_005, Total: with Health Insurance Coverage: Private Health Insurance
+A10065_001, Own Children under 18 Years
+A10065_002, Own Children under 18 Years: Children Living with Single Parents
+B05001001,  Total
+B05001002,  Total: U.S. Citizen Born In The United States
+B05001003,  Total: U.S. Citizen Born In Puerto Rico Or U.S. Island Areas
+B05001004,  Total: U.S. Citizen Born Abroad Of American Parent(S)
+B05001005,  Total: U.S. Citizen By Naturalization
+B05001006,  Total: Not A U.S. Citizen
+B23018001,  Aggregate Usual Hours
+B23018002,  Aggregate Usual Hours: Male
+B23018003,  Aggregate Usual Hours: Female
+C24050001,  Total
+C24050002,  Total: Agriculture Forestry Fishing And Hunting And Mining
+C24050003,  Total: Construction
+C24050004,  Total: Manufacturing
+C24050005,  Total: Wholesale Trade
+C24050006,  Total: Retail Trade
+C24050007,  Total: Transportation And Warehousing And Utilities
+C24050008,  Total: Information
+C24050009,  Total: Fice And Insurance And Real Estate And Rental And Leasing
+C24050010,  Total: Professional Scientific And Management And Administrative And Waste Management Services
+C24050011,  Total: Educational Services And Health Care And Social Assistance
+C24050012,  Total: Arts Entertainment And Recreation And Accommodation And Food Services
+C24050013,  Total: Other Services Except Public Administration
+C24050014,  Total: Public Administration
+C24050015,  Total: Management Business Science And Arts Occupations
+C24050016,  Total: Management Business Science And Arts Occupations: Agriculture Forestry Fishing And Hunting And Mining
+C24050017,  Total: Management Business Science And Arts Occupations: Construction
+C24050018,  Total: Management Business Science And Arts Occupations: Manufacturing
+C24050019,  Total: Management Business Science And Arts Occupations: Wholesale Trade
+C24050020,  Total: Management Business Science And Arts Occupations: Retail Trade
+C24050021,  Total: Management Business Science And Arts Occupations: Transportation And Warehousing And Utilities
+C24050022,  Total: Management Business Science And Arts Occupations: Information
+C24050023,  Total: Management Business Science And Arts Occupations: Fice And Insurance And Real Estate And Rental And Leasing
+C24050024,  Total: Management Business Science And Arts Occupations: Professional Scientific And Management And Administrative And Waste Management Services
+C24050025,  Total: Management Business Science And Arts Occupations: Educational Services And Health Care And Social Assistance
+C24050026,  Total: Management Business Science And Arts Occupations: Arts Entertainment And Recreation And Accommodation And Food Services
+C24050027,  Total: Management Business Science And Arts Occupations: Other Services Except Public Administration
+C24050028,  Total: Management Business Science And Arts Occupations: Public Administration
+C24050029,  Total: Service Occupations
+C24050030,  Total: Service Occupations: Agriculture Forestry Fishing And Hunting And Mining
+C24050031,  Total: Service Occupations: Construction
+C24050032,  Total: Service Occupations: Manufacturing
+C24050033,  Total: Service Occupations: Wholesale Trade
+C24050034,  Total: Service Occupations: Retail Trade
+C24050035,  Total: Service Occupations: Transportation And Warehousing And Utilities
+C24050036,  Total: Service Occupations: Information
+C24050037,  Total: Service Occupations: Fice And Insurance And Real Estate And Rental And Leasing
+C24050038,  Total: Service Occupations: Professional Scientific And Management And Administrative And Waste Management Services
+C24050039,  Total: Service Occupations: Educational Services And Health Care And Social Assistance
+C24050040,  Total: Service Occupations: Arts Entertainment And Recreation And Accommodation And Food Services
+C24050041,  Total: Service Occupations: Other Services Except Public Administration
+C24050042,  Total: Service Occupations: Public Administration
+C24050043,  Total: Sales And Office Occupations
+C24050044,  Total: Sales And Office Occupations: Agriculture Forestry Fishing And Hunting And Mining
+C24050045,  Total: Sales And Office Occupations: Construction
+C24050046,  Total: Sales And Office Occupations: Manufacturing
+C24050047,  Total: Sales And Office Occupations: Wholesale Trade
+C24050048,  Total: Sales And Office Occupations: Retail Trade
+C24050049,  Total: Sales And Office Occupations: Transportation And Warehousing And Utilities
+C24050050,  Total: Sales And Office Occupations: Information
+C24050051,  Total: Sales And Office Occupations: Fice And Insurance And Real Estate And Rental And Leasing
+C24050052,  Total: Sales And Office Occupations: Professional Scientific And Management And Administrative And Waste Management Services
+C24050053,  Total: Sales And Office Occupations: Educational Services And Health Care And Social Assistance
+C24050054,  Total: Sales And Office Occupations: Arts Entertainment And Recreation And Accommodation And Food Services
+C24050055,  Total: Sales And Office Occupations: Other Services Except Public Administration
+C24050056,  Total: Sales And Office Occupations: Public Administration
+C24050057,  Total: Natural Resources Construction And Maintece Occupations
+C24050058,  Total: Natural Resources Construction And Maintece Occupations: Agriculture Forestry Fishing And Hunting And Mining
+C24050059,  Total: Natural Resources Construction And Maintece Occupations: Construction
+C24050060,  Total: Natural Resources Construction And Maintece Occupations: Manufacturing
+C24050061,  Total: Natural Resources Construction And Maintece Occupations: Wholesale Trade
+C24050062,  Total: Natural Resources Construction And Maintece Occupations: Retail Trade
+C24050063,  Total: Natural Resources Construction And Maintece Occupations: Transportation And Warehousing And Utilities
+C24050064,  Total: Natural Resources Construction And Maintece Occupations: Information
+C24050065,  Total: Natural Resources Construction And Maintece Occupations: Fice And Insurance And Real Estate And Rental And Leasing
+C24050066,  Total: Natural Resources Construction And Maintece Occupations: Professional Scientific And Management And Administrative And Waste Management Services
+C24050067,  Total: Natural Resources Construction And Maintece Occupations: Educational Services And Health Care And Social Assistance
+C24050068,  Total: Natural Resources Construction And Maintece Occupations: Arts Entertainment And Recreation And Accommodation And Food Services
+C24050069,  Total: Natural Resources Construction And Maintece Occupations: Other Services Except Public Administration
+C24050070,  Total: Natural Resources Construction And Maintece Occupations: Public Administration
+C24050071,  Total: Production Transportation And Material Moving Occupations
+C24050072,  Total: Production Transportation And Material Moving Occupations: Agriculture Forestry Fishing And Hunting And Mining
+C24050073,  Total: Production Transportation And Material Moving Occupations: Construction
+C24050074,  Total: Production Transportation And Material Moving Occupations: Manufacturing
+C24050075,  Total: Production Transportation And Material Moving Occupations: Wholesale Trade
+C24050076,  Total: Production Transportation And Material Moving Occupations: Retail Trade
+C24050077,  Total: Production Transportation And Material Moving Occupations: Transportation And Warehousing And Utilities
+C24050078,  Total: Production Transportation And Material Moving Occupations: Information
+C24050079,  Total: Production Transportation And Material Moving Occupations: Fice And Insurance And Real Estate And Rental And Leasing
+C24050080,  Total: Production Transportation And Material Moving Occupations: Professional Scientific And Management And Administrative And Waste Management Services
+C24050081,  Total: Production Transportation And Material Moving Occupations: Educational Services And Health Care And Social Assistance
+C24050082,  Total: Production Transportation And Material Moving Occupations: Arts Entertainment And Recreation And Accommodation And Food Services
+C24050083,  Total: Production Transportation And Material Moving Occupations: Other Services Except Public Administration
+C24050084,  Total: Production Transportation And Material Moving Occupations: Public Administration
+B25024001,  Total
+B25024002,  Total: 1 Detached
+B25024003,  Total: 1 Attached
+B25024004,  Total: 2
+B25024005,  Total: 3 Or 4
+B25024006,  Total: 5 To 9
+B25024007,  Total: 10 To 19
+B25024008,  Total: 20 To 49
+B25024009,  Total: 50 Or More
+B25024010,  Total: Mobile Home
+B25024011,  Total: Boat Rv Van Etc.
+B25034001,  Total
+B25034002,  Total: Built 2014 Or Later
+B25034003,  Total: Built 2010 To 2013
+B25034004,  Total: Built 2000 To 2009
+B25034005,  Total: Built 1990 To 1999
+B25034006,  Total: Built 1980 To 1989
+B25034007,  Total: Built 1970 To 1979
+B25034008,  Total: Built 1960 To 1969
+B25034009,  Total: Built 1950 To 1959
+B25034010,  Total: Built 1940 To 1949
+B25034011,  Total: Built 1939 Or Earlier
+B25047001,  Total
+B25047002,  Total: Complete Plumbing Facilities
+B25047003,  Total: Lacking Complete Plumbing Facilities
+B25047001s, Std. Error: Total
+B25047002s, Std. Error: Total: Complete Plumbing Facilities
+B25047003s, Std. Error: Total: Lacking Complete Plumbing Facilities
+B25051001,  Total
+B25051002,  Total: Complete Kitchen Facilities
+B25051003,  Total: Lacking Complete Kitchen Facilities
+B25077001,  Median Value (Dollars)
+B25077001s, Std. Error: Median Value (Dollars)
+B28008001,  Total
+B28008002,  Total: Has A Computer
+B28008003,  Total: Has A Computer: With Dial-Up Internet Subscription Alone
+B28008004,  Total: Has A Computer: With A Broadband Subscription
+B28008005,  Total: Has A Computer: With A Broadband Subscription: With A Fixed Broadband Internet Subscription
+B28008006,  Total: Has A Computer: With A Broadband Subscription: With A Fixed Broadband Internet Subscription: With A Cellular Data Plan
+B28008007,  Total: Has A Computer: With A Broadband Subscription: With A Fixed Broadband Internet Subscription: Without A Cellular Data Plan
+B28008008,  Total:   Cellular Data Plan Alone Or With Dial-Up
+B28008009,  Total:  Without Internet Subscription
+B28008010,  Total: No Computer
+B28010001,  Total
+B28010002,  Total: Has One Or More Types Of Computing Devices
+B28010003,  Total: Has One Or More Types Of Computing Devices: Desktop Or Laptop
+B28010004,  Total: Has One Or More Types Of Computing Devices: Desktop Or Laptop  Desktop Or Laptop Alone
+B28010005,  Total:  Smartphone Tablet Or Other Portable Wireless Computer Or Other Computer
+B28010006,  Total:  Smartphone Tablet Or Other Portable Wireless Computer Or Other Computer Smartphone Tablet Or Other Portable Wireless Computer Or Other Computer No Desktop Or Laptop
+B28010007,  Total: No Computer
