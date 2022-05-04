@@ -589,7 +589,7 @@ function drawDragDropMap(countiesOutlineData){
          dragDropMap.on('mousemove',"countiesFill", function(e) {
 		 var properties = e.features[0].properties//["ACS20_5yr_B05001005_percentile"]
 			 console.log(properties)
-			 var displayString = "<strong>"+properties.label+"</strong>"//"<br>"
+			 var displayString = "<strong>"+properties.label+"</strong><br>"
 			 //+"Ranked: "+properties["tally_order"]+" | Percentile: "+Math.round(properties["tally_percentile"]*100)/100+"<br>"+"<br>"
 			// console.log(activeCats)
 			 for(var c in activeCats){
