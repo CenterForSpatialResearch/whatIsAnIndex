@@ -332,7 +332,7 @@ function drawMap(divName,indexName,data){
 	//console.log(countiesCount)
 	
 	
-    mapboxgl.accessToken = "pk.eyJ1IjoiYzRzci1nc2FwcCIsImEiOiJja2J0ajRtNzMwOHBnMnNvNnM3Ymw5MnJzIn0.fsTNczOFZG8Ik3EtO9LdNQ"
+    mapboxgl.accessToken = "pk.eyJ1IjoiYzRzci1nc2FwcCIsImEiOiJjbW0wdmVnNmgwMzBtMnBxMm1zbDU0Y2E2In0.G1caC9qttSxrEOThgWEYgg"
 
 	var bounds = new mapboxgl.LngLatBounds();
 
